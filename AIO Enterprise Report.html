@@ -1,0 +1,1311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Semrush AIO Report — Carrier | May 2026</title>
+<style>
+:root{--bg:#EEF0F7;--s:#fff;--b:#DDE1EA;--t:#1A2033;--t2:#6B7891;--t3:#9BA8BA;--blue:#006BB6;--gr:#00875A;--re:#D93025;--or:#FF8C00;--sh:0 1px 3px rgba(0,0,0,.07),0 4px 14px rgba(0,0,0,.05);--r:10px}
+*,*::before,*::after{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--t);font-family:-apple-system,"Segoe UI",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.5}
+.nav{position:sticky;top:0;z-index:200;background:#fff;border-bottom:1px solid var(--b);display:flex;align-items:center;padding:0 20px;overflow-x:auto;scrollbar-width:none;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+.nav::-webkit-scrollbar{display:none}
+.nlogo{font-size:13px;font-weight:700;padding:13px 14px 13px 0;border-right:1px solid var(--b);margin-right:8px;white-space:nowrap;display:flex;align-items:center;gap:6px;color:var(--t)}
+.nbadge{background:#E8560A;color:#fff;font-size:9px;font-weight:700;letter-spacing:.07em;text-transform:uppercase;padding:2px 6px;border-radius:3px}
+.ntoc{display:flex;list-style:none;margin:0;padding:0;gap:1px}
+.ntoc a{display:block;padding:13px 9px;font-size:12px;font-weight:500;color:var(--t2);text-decoration:none;white-space:nowrap;border-bottom:2px solid transparent;transition:all .15s}
+.ntoc a:hover{color:var(--blue);border-bottom-color:var(--blue)}
+.pg{max-width:1120px;margin:0 auto;padding:20px 16px 48px}
+.pg-title{font-size:22px;font-weight:700;letter-spacing:-.02em;margin:0 0 3px}
+.pg-sub{font-size:13px;color:var(--t2);margin:0 0 20px}
+.sec{background:var(--s);border-radius:var(--r);box-shadow:var(--sh);margin-bottom:20px;overflow:hidden}
+.sh{position:sticky;top:48px;z-index:100;background:#fff;border-bottom:1px solid var(--b);padding:14px 20px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px}
+.stitle{font-size:17px;font-weight:700;margin:0}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;border:1px solid var(--b);background:#F5F7FA;font-size:11.5px;font-weight:500;color:var(--t);white-space:nowrap}
+.sb{padding:20px}
+.back{display:block;text-align:center;padding:10px;font-size:12px;color:var(--t3);text-decoration:none;border-top:1px solid var(--b);transition:color .15s}
+.back:hover{color:var(--blue)}
+.kpis{display:grid;gap:12px;margin-bottom:20px}
+.kpi{border:1px solid var(--b);border-radius:8px;padding:14px 16px}
+.kl{font-size:11px;font-weight:600;letter-spacing:.05em;text-transform:uppercase;color:var(--t2);margin-bottom:6px}
+.kdesc{font-size:10.5px;color:var(--t3);margin-bottom:6px;line-height:1.4}
+.kv{font-size:26px;font-weight:700;letter-spacing:-.02em;line-height:1;margin-bottom:4px}
+.kvsm{font-size:14px;font-weight:600;line-height:1.3;margin-bottom:1px}
+.ksub{font-size:11.5px;color:var(--t2);margin-top:2px}
+.up{color:var(--gr)}.dn{color:var(--re)}
+.dt{font-size:12px;font-weight:600}
+.cbox{border:1px solid var(--b);border-radius:8px;padding:16px;margin-bottom:16px}
+.chd{font-size:13px;font-weight:600;margin:0 0 12px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:4px}
+.chd span{font-size:11px;font-weight:400;color:var(--t2)}
+.leg{display:flex;flex-wrap:wrap;gap:10px;margin-top:10px}
+.li{display:flex;align-items:center;gap:5px;font-size:11.5px;color:var(--t2)}
+.ld{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.tbl{width:100%;border-collapse:collapse;font-size:13px}
+.tbl th{padding:9px 12px;text-align:left;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;color:var(--t2);border-bottom:2px solid var(--b);white-space:nowrap;background:#FAFBFC}
+.tbl td{padding:9px 12px;border-bottom:1px solid #F0F2F6;vertical-align:middle}
+.tbl tr:last-child td{border-bottom:0}
+.tbl tr:hover td{background:#F8F9FB}
+.tbl .n{font-variant-numeric:tabular-nums;font-weight:600}
+.tbl a{color:var(--blue);text-decoration:none;font-size:12.5px}
+.tbl a:hover{text-decoration:underline}
+.bw{display:flex;align-items:center;gap:7px}
+.bbg{height:6px;border-radius:3px;background:#E8F2FC;flex:0 0 60px;overflow:hidden}
+.bfg{height:100%;background:#90CAF9;border-radius:3px}
+.hl td{background:#EBF3FE!important}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.three{display:grid;grid-template-columns:1fr 1fr 1fr;gap:16px}
+.mi{width:20px;height:20px;border-radius:4px;display:inline-flex;align-items:center;justify-content:center;font-size:9.5px;font-weight:700;color:#fff;flex-shrink:0;vertical-align:middle;margin-right:5px}
+.dd{width:12px;height:12px;border-radius:50%;display:inline-block;margin-right:5px;flex-shrink:0;vertical-align:middle}
+.tag-pill{display:inline-block;padding:2px 8px;border-radius:4px;background:#F0F2F7;font-size:12px}
+.pg-note{font-size:11.5px;color:var(--t3);padding:8px 0 0;text-align:right}
+.delta-up{color:var(--gr);font-size:11.5px;font-weight:600}
+.delta-dn{color:var(--re);font-size:11.5px;font-weight:600}
+.delta-0{color:var(--t3);font-size:11.5px;font-weight:600}
+.vis-ring{display:inline-block;vertical-align:middle}
+.section-label{font-size:11px;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--t3);margin:24px 0 8px;padding-bottom:4px;border-bottom:1px solid var(--b)}
+.stacked-bar{display:flex;height:18px;border-radius:4px;overflow:hidden;width:100%}
+footer{text-align:center;padding:24px;font-size:12px;color:var(--t3)}
+@media(max-width:700px){.two,.three{grid-template-columns:1fr}.kpis{grid-template-columns:repeat(2,1fr)!important}.sh{flex-direction:column;align-items:flex-start}.pg{padding:12px 10px 32px}}
+</style>
+<template id="__bundler_thumbnail" data-bg-color="#EEF0F7">
+  <svg viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+    <rect width="120" height="80" fill="#EEF0F7"/>
+    <rect x="8" y="8" width="104" height="14" rx="3" fill="#fff"/>
+    <rect x="12" y="11" width="40" height="8" rx="2" fill="#DDE1EA"/>
+    <rect x="8" y="26" width="50" height="22" rx="3" fill="#fff"/>
+    <rect x="62" y="26" width="50" height="22" rx="3" fill="#fff"/>
+    <rect x="12" y="30" width="20" height="5" rx="1" fill="#DDE1EA"/>
+    <rect x="12" y="38" width="32" height="7" rx="1" fill="#006BB6" opacity=".7"/>
+    <rect x="66" y="30" width="20" height="5" rx="1" fill="#DDE1EA"/>
+    <rect x="66" y="38" width="28" height="7" rx="1" fill="#00875A" opacity=".7"/>
+    <rect x="8" y="52" width="104" height="20" rx="3" fill="#fff"/>
+    <rect x="12" y="56" width="12" height="4" rx="1" fill="#DDE1EA"/>
+    <rect x="28" y="56" width="12" height="4" rx="1" fill="#DDE1EA"/>
+    <rect x="44" y="56" width="12" height="4" rx="1" fill="#DDE1EA"/>
+    <rect x="12" y="63" width="96" height="2" rx="1" fill="#F0F2F6"/>
+    <rect x="12" y="67" width="60" height="2" rx="1" fill="#F0F2F6"/>
+    <text x="60" y="6" text-anchor="middle" font-size="4" fill="#6B7891" font-family="sans-serif">Semrush AIO Enterprise Report</text>
+  </svg>
+</template>
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nlogo">Semrush <span class="nbadge">AIO</span></div>
+  <ul class="ntoc">
+    <li><a href="#s1">AIO Overview</a></li>
+    <li><a href="#s2">Prompt Tracking</a></li>
+    <li><a href="#s3">AI Rankings</a></li>
+    <li><a href="#s4">Rankings Gap</a></li>
+    <li><a href="#s5">Tag Analysis</a></li>
+    <li><a href="#s6">Citations</a></li>
+    <li><a href="#s7">Source Analysis</a></li>
+    <li><a href="#s8">Global Rankings</a></li>
+    <li><a href="#s9">Benchmark Intelligence</a></li>
+  </ul>
+</nav>
+
+<div class="pg">
+<h1 class="pg-title">Carrier — AIO Enterprise Report</h1>
+<p class="pg-sub">Generated May 15, 2026 &nbsp;·&nbsp; Semrush AIO Enterprise &nbsp;·&nbsp; carrier.com &nbsp;·&nbsp; United States</p>
+
+<!-- ===== S1: AIO OVERVIEW ===== -->
+<div class="sec" id="s1">
+  <div class="sh">
+    <h2 class="stitle">AIO Overview</h2>
+    <div class="chips">
+      <span class="chip"><span class="dd" style="background:#1565C0"></span>carrier.com</span>
+      <span class="chip">🇺🇸 US</span>
+    </div>
+  </div>
+  <div class="sb">
+
+    <div class="kpis" style="grid-template-columns:repeat(4,1fr)">
+      <div class="kpi">
+        <div class="kl">Share of Voice</div>
+        <div class="kdesc">% of AI responses mentioning Carrier among all tracked competitor mentions</div>
+        <div class="kv">2%</div>
+        <span class="dt dn">▼ −0%</span> <span class="ksub">vs prev period</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Source Visibility</div>
+        <div class="kdesc">% of AI responses where carrier.com is cited as a source URL</div>
+        <div class="kv">13%</div>
+        <span class="dt dn">▼ −2%</span> <span class="ksub">vs prev period</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Referral Traffic</div>
+        <div class="kdesc">Estimated visits to carrier.com originating from AI platform links</div>
+        <div class="kv">4,658</div>
+        <span class="dt up">▲ +2,784</span> <span class="ksub">vs prev period</span>
+      </div>
+      <div class="kpi" style="text-align:center">
+        <div class="kl" style="text-align:center">AI Visibility Score</div>
+        <div class="kdesc" style="text-align:center">Composite score 0–100 combining SoV, source visibility, and position</div>
+        <svg viewBox="0 0 120 72" width="110" style="display:block;margin:4px auto 0">
+          <path d="M18,64 A42,42 0 0,1 102,64" fill="none" stroke="#E5E8ED" stroke-width="11" stroke-linecap="round"/>
+          <path d="M18,64 A42,42 0 0,1 102,64" fill="none" stroke="#FFA726" stroke-width="11" stroke-linecap="round" stroke-dasharray="75.21 56.74"/>
+          <text x="60" y="62" text-anchor="middle" font-size="22" font-weight="700" fill="#1A2033" font-family="-apple-system,sans-serif">57</text>
+        </svg>
+        <div style="font-size:10px;color:var(--t3)">out of 100</div>
+      </div>
+    </div>
+
+    <div class="cbox">
+      <div class="chd">Share of Voice — Trend by Competitor <span>Apr 12 – May 10, 2026</span></div>
+      <svg viewBox="0 0 660 148" width="100%" style="display:block;overflow:visible">
+        <line x1="40" y1="18" x2="660" y2="18" stroke="#F0F2F6"/><line x1="40" y1="50" x2="660" y2="50" stroke="#F0F2F6"/>
+        <line x1="40" y1="82" x2="660" y2="82" stroke="#F0F2F6"/><line x1="40" y1="114" x2="660" y2="114" stroke="#F0F2F6"/>
+        <line x1="40" y1="128" x2="660" y2="128" stroke="#E5E8ED"/>
+        <text x="35" y="22" text-anchor="end" font-size="10" fill="#9BA8BA">8%</text>
+        <text x="35" y="54" text-anchor="end" font-size="10" fill="#9BA8BA">6%</text>
+        <text x="35" y="86" text-anchor="end" font-size="10" fill="#9BA8BA">4%</text>
+        <text x="35" y="118" text-anchor="end" font-size="10" fill="#9BA8BA">2%</text>
+        <text x="40" y="143" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 12</text>
+        <text x="192" y="143" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 19</text>
+        <text x="346" y="143" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 26</text>
+        <text x="499" y="143" text-anchor="middle" font-size="10" fill="#9BA8BA">May 3</text>
+        <text x="652" y="143" text-anchor="middle" font-size="10" fill="#9BA8BA">May 10</text>
+        <polyline points="40,101 192,94 346,107 499,94 652,114" fill="none" stroke="#4285F4" stroke-width="2.5"/>
+        <polyline points="40,73 192,66 346,73 499,80 652,80" fill="none" stroke="#FFA726" stroke-width="2"/>
+        <polyline points="40,73 192,80 346,80 499,73 652,73" fill="none" stroke="#34A853" stroke-width="2"/>
+        <polyline points="40,124 192,126 346,124 499,127 652,124" fill="none" stroke="#EA4335" stroke-width="1.5"/>
+      </svg>
+      <div class="leg">
+        <div class="li"><div class="ld" style="background:#4285F4"></div>Carrier</div>
+        <div class="li"><div class="ld" style="background:#FFA726"></div>Trane</div>
+        <div class="li"><div class="ld" style="background:#34A853"></div>Lennox</div>
+        <div class="li"><div class="ld" style="background:#EA4335"></div>The Home Depot</div>
+      </div>
+    </div>
+
+    <div class="chd" style="margin-bottom:10px">Prompt Tracking Rankings — Performance by AI Model</div>
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>AI Model</th>
+          <th>Share of Voice<br><span style="font-weight:400;text-transform:none;font-size:10px">% of responses mentioning Carrier</span></th>
+          <th>Mentions<br><span style="font-weight:400;text-transform:none;font-size:10px">responses where brand is named</span></th>
+          <th>Avg. Position<br><span style="font-weight:400;text-transform:none;font-size:10px">mean rank in response lists</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="mi" style="background:#4285F4">G</span>Google AI Overview</td>
+          <td><div class="bw"><div class="bbg"><div class="bfg" style="width:15%"></div></div><span class="n">2%</span></div></td>
+          <td><div class="bw"><div class="bbg"><div class="bfg" style="width:100%"></div></div><span class="n">824</span></div></td>
+          <td class="n">3.1</td>
+        </tr>
+        <tr>
+          <td><span class="mi" style="background:#74AA9C">C</span>ChatGPT</td>
+          <td><div class="bw"><div class="bbg"><div class="bfg" style="width:85%"></div></div><span class="n">11%</span></div></td>
+          <td><div class="bw"><div class="bbg"><div class="bfg" style="width:75%"></div></div><span class="n">614</span></div></td>
+          <td class="n">3.6</td>
+        </tr>
+        <tr>
+          <td><span class="mi" style="background:#1A56DB">D</span>Deepseek</td>
+          <td><div class="bw"><div class="bbg"><div class="bfg" style="width:100%"></div></div><span class="n">13%</span></div></td>
+          <td><div class="bw"><div class="bbg"><div class="bfg" style="width:40%"></div></div><span class="n">326</span></div></td>
+          <td class="n">4.0</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+  <a href="#" class="back">↑ Back to top</a>
+</div>
+
+<!-- ===== S2: PROMPT TRACKING OVERVIEW ===== -->
+<div class="sec" id="s2">
+  <div class="sh">
+    <h2 class="stitle">Prompt Tracking Overview</h2>
+    <div class="chips">
+      <span class="chip"><span class="dd" style="background:#1565C0"></span>Carrier</span>
+      <span class="chip">🤖 ChatGPT</span>
+      <span class="chip">Apr 16 – May 14, 2026</span>
+    </div>
+  </div>
+  <div class="sb">
+
+    <div class="kpis" style="grid-template-columns:repeat(3,1fr)">
+      <div class="kpi">
+        <div class="kl">Share of Voice</div>
+        <div class="kdesc">Carrier's % of all brand mentions across tracked prompts</div>
+        <div class="kv">11%</div>
+        <span class="dt up">▲ +3%</span> <span class="ksub">vs prev period (Mar 18–Apr 15)</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Brand Visibility</div>
+        <div class="kdesc">% of total AI responses that mention Carrier at least once</div>
+        <div class="kv">15%</div>
+        <span class="dt up">▲ +3%</span> <span class="ksub">vs prev period</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Sentiment Distribution</div>
+        <div class="kdesc">Tone of AI responses mentioning Carrier — 3K total analyzed</div>
+        <svg viewBox="0 0 80 80" width="72" height="72" style="display:block;margin:4px 0">
+          <circle r="26" cx="40" cy="40" fill="none" stroke="#E5E8ED" stroke-width="12"/>
+          <circle r="26" cx="40" cy="40" fill="none" stroke="#20B2AA" stroke-width="12" stroke-dasharray="101.3 62.1" stroke-dashoffset="0" transform="rotate(-90,40,40)"/>
+          <circle r="26" cx="40" cy="40" fill="none" stroke="#FFC107" stroke-width="12" stroke-dasharray="44.1 119.3" stroke-dashoffset="-101.3" transform="rotate(-90,40,40)"/>
+        </svg>
+        <div class="leg" style="margin-top:4px">
+          <div class="li"><div class="ld" style="background:#20B2AA"></div>Positive ~62%</div>
+          <div class="li"><div class="ld" style="background:#FFC107"></div>Neutral ~27%</div>
+          <div class="li"><div class="ld" style="background:#EF5350"></div>Negative ~11%</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="kpis" style="grid-template-columns:repeat(3,1fr)">
+      <div class="kpi">
+        <div class="kl">Responses — Brand Mentioned</div>
+        <div class="kdesc">AI responses in which Carrier is named at least once</div>
+        <div class="kv" style="font-size:22px">614</div>
+        <span class="dt up">▲ +129</span> <span class="ksub">vs prev period</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Responses — Brand Not Mentioned</div>
+        <div class="kdesc">AI responses tracked where Carrier does not appear</div>
+        <div class="kv" style="font-size:22px">3,598</div>
+        <span class="dt dn">▼ −151</span> <span class="ksub">vs prev period</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Source Visibility</div>
+        <div class="kdesc">% of ChatGPT responses where carrier.com URL is cited</div>
+        <div class="kv">10%</div>
+        <span class="dt dn">▼ −3%</span> <span class="ksub">vs prev period</span>
+      </div>
+    </div>
+
+    <div class="kpis" style="grid-template-columns:repeat(2,1fr)">
+      <div class="kpi">
+        <div class="kl">Domain Cited (Citations)</div>
+        <div class="kdesc">Responses that include at least one link to carrier.com</div>
+        <div class="kv" style="font-size:22px">434</div>
+        <span class="dt dn">▼ −150</span> <span class="ksub">vs prev period</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Domain Not Cited</div>
+        <div class="kdesc">Responses that contain no link to carrier.com</div>
+        <div class="kv" style="font-size:22px">3,735</div>
+        <span class="dt up">▲ +100</span> <span class="ksub">vs prev period</span>
+      </div>
+    </div>
+
+    <div class="cbox">
+      <div class="chd">Share of Voice — Rankings Trend <span>Apr 16 – May 14, 2026</span></div>
+      <svg viewBox="0 0 660 160" width="100%" style="display:block;overflow:visible">
+        <line x1="40" y1="18" x2="660" y2="18" stroke="#F0F2F6"/><line x1="40" y1="44" x2="660" y2="44" stroke="#F0F2F6"/>
+        <line x1="40" y1="70" x2="660" y2="70" stroke="#F0F2F6"/><line x1="40" y1="96" x2="660" y2="96" stroke="#F0F2F6"/>
+        <line x1="40" y1="122" x2="660" y2="122" stroke="#F0F2F6"/><line x1="40" y1="136" x2="660" y2="136" stroke="#E5E8ED"/>
+        <text x="35" y="22" text-anchor="end" font-size="10" fill="#9BA8BA">16%</text>
+        <text x="35" y="48" text-anchor="end" font-size="10" fill="#9BA8BA">12%</text>
+        <text x="35" y="74" text-anchor="end" font-size="10" fill="#9BA8BA">8%</text>
+        <text x="35" y="100" text-anchor="end" font-size="10" fill="#9BA8BA">6%</text>
+        <text x="35" y="126" text-anchor="end" font-size="10" fill="#9BA8BA">4%</text>
+        <text x="40" y="150" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 16</text>
+        <text x="141" y="150" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 21</text>
+        <text x="243" y="150" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 25</text>
+        <text x="345" y="150" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 30</text>
+        <text x="447" y="150" text-anchor="middle" font-size="10" fill="#9BA8BA">May 4</text>
+        <text x="549" y="150" text-anchor="middle" font-size="10" fill="#9BA8BA">May 9</text>
+        <text x="651" y="150" text-anchor="middle" font-size="10" fill="#9BA8BA">May 14</text>
+        <polyline points="40,99 141,70 243,84 345,91 447,77 549,70 651,25" fill="none" stroke="#4285F4" stroke-width="2.5"/>
+        <polyline points="40,77 141,91 243,106 345,91 447,84 549,84 651,70" fill="none" stroke="#FFA726" stroke-width="2"/>
+        <polyline points="40,91 141,84 243,106 345,84 447,84 549,91 651,84" fill="none" stroke="#34A853" stroke-width="2"/>
+        <polyline points="40,106 141,99 243,84 345,84 447,84 549,91 651,91" fill="none" stroke="#EA4335" stroke-width="2"/>
+        <polyline points="40,84 141,99 243,84 345,70 447,84 549,91 651,84" fill="none" stroke="#9C27B0" stroke-width="2.5"/>
+        <polyline points="40,114 141,114 243,114 345,106 447,114 549,114 651,114" fill="none" stroke="#00BCD4" stroke-width="2"/>
+        <polyline points="40,106 141,99 243,99 345,99 447,91 549,106 651,106" fill="none" stroke="#FF5722" stroke-width="2"/>
+      </svg>
+      <div class="leg">
+        <div class="li"><div class="ld" style="background:#4285F4"></div>Daikin</div>
+        <div class="li"><div class="ld" style="background:#FFA726"></div>Midea</div>
+        <div class="li"><div class="ld" style="background:#34A853"></div>LG</div>
+        <div class="li"><div class="ld" style="background:#EA4335"></div>Trane</div>
+        <div class="li"><div class="ld" style="background:#9C27B0"></div>Carrier</div>
+        <div class="li"><div class="ld" style="background:#00BCD4"></div>Levoit</div>
+        <div class="li"><div class="ld" style="background:#FF5722"></div>Mitsubishi</div>
+      </div>
+    </div>
+
+    <div class="two">
+      <div>
+        <div class="chd" style="margin-bottom:10px">Brand Leaderboard — Share of Voice Rank <span>Apr 16 – May 14</span></div>
+        <table class="tbl">
+          <thead><tr><th>SoV Rank</th><th>Brand</th><th>Share of Voice</th></tr></thead>
+          <tbody>
+            <tr><td class="n">1</td><td>Midea</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:100%"></div></div><span class="n">12%</span></div></td></tr>
+            <tr class="hl"><td class="n">2</td><td><strong>Carrier</strong></td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:88%"></div></div><span class="n">10.6%</span></div></td></tr>
+            <tr><td class="n">3</td><td>Levoit</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:84%"></div></div><span class="n">10.1%</span></div></td></tr>
+            <tr><td class="n">4</td><td>Daikin</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:83%"></div></div><span class="n">10%</span></div></td></tr>
+            <tr><td class="n">5</td><td>Trane</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:73%"></div></div><span class="n">8.8%</span></div></td></tr>
+            <tr><td class="n">6</td><td>Honeywell</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:70%"></div></div><span class="n">8.4%</span></div></td></tr>
+            <tr><td class="n">7</td><td>LG</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:71%"></div></div><span class="n">8.5%</span></div></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <div class="chd" style="margin-bottom:10px">Most Cited Sources <span>Source Visibility &amp; Response Count</span></div>
+        <table class="tbl">
+          <thead><tr><th>Source Domain</th><th>Source Visibility</th><th>Responses w/ Citation</th></tr></thead>
+          <tbody>
+            <tr><td><a href="#">consumerreports.org</a></td><td class="n">24.7%</td><td class="n">1,029</td></tr>
+            <tr><td><a href="#">pickhvac.com</a></td><td class="n">22.5%</td><td class="n">939</td></tr>
+            <tr><td><a href="#">reddit.com</a></td><td class="n">18.3%</td><td class="n">765</td></tr>
+            <tr><td><a href="#">thefurnaceoutlet.com</a></td><td class="n">16.8%</td><td class="n">701</td></tr>
+            <tr><td><a href="#">forbes.com</a></td><td class="n">15.9%</td><td class="n">664</td></tr>
+            <tr><td><a href="#">homedepot.com</a></td><td class="n">12.6%</td><td class="n">524</td></tr>
+            <tr><td><a href="#">nuwattenergy.com</a></td><td class="n">12.4%</td><td class="n">515</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section-label">Performance by AI Model</div>
+    <table class="tbl" style="margin-bottom:16px">
+      <thead>
+        <tr>
+          <th>AI Model</th>
+          <th>Share of Voice<br><span style="font-weight:400;text-transform:none;font-size:10px">% of competitor mentions</span></th>
+          <th>Visibility Change<br><span style="font-weight:400;text-transform:none;font-size:10px">vs previous period</span></th>
+          <th>Mentions<br><span style="font-weight:400;text-transform:none;font-size:10px">responses with brand name</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="mi" style="background:#1A56DB">D</span>Deepseek</td>
+          <td><div class="bw"><div class="bbg"><div class="bfg" style="width:100%"></div></div><span class="n">13%</span></div></td>
+          <td class="delta-dn">▼ −22%</td>
+          <td class="n">326</td>
+        </tr>
+        <tr class="hl">
+          <td><span class="mi" style="background:#74AA9C">C</span>ChatGPT</td>
+          <td><div class="bw"><div class="bbg"><div class="bfg" style="width:85%"></div></div><span class="n">11%</span></div></td>
+          <td class="delta-dn">▼ −15%</td>
+          <td class="n">614</td>
+        </tr>
+        <tr>
+          <td><span class="mi" style="background:#4285F4">G</span>Google AI Overview</td>
+          <td><div class="bw"><div class="bbg"><div class="bfg" style="width:15%"></div></div><span class="n">2%</span></div></td>
+          <td class="delta-dn">▼ −25%</td>
+          <td class="n">824</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="section-label">Top Concepts — Sentiment by Topic</div>
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Concept / Topic</th>
+          <th>Mentions<br><span style="font-weight:400;text-transform:none;font-size:10px">AI responses referencing this topic</span></th>
+          <th>Positive Sentiment<br><span style="font-weight:400;text-transform:none;font-size:10px">responses with favorable tone</span></th>
+          <th>Negative Sentiment<br><span style="font-weight:400;text-transform:none;font-size:10px">responses with unfavorable tone</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Energy efficiency &amp; performance</td><td><div class="bw"><div class="bbg" style="flex:0 0 80px"><div class="bfg" style="width:100%"></div></div><span class="n">814</span></div></td><td class="n" style="color:var(--gr)">668</td><td class="n" style="color:var(--re)">5</td></tr>
+        <tr><td>Reliability &amp; warranty</td><td><div class="bw"><div class="bbg" style="flex:0 0 80px"><div class="bfg" style="width:61%"></div></div><span class="n">495</span></div></td><td class="n" style="color:var(--gr)">289</td><td class="n" style="color:var(--re)">1</td></tr>
+        <tr><td>System configurations</td><td><div class="bw"><div class="bbg" style="flex:0 0 80px"><div class="bfg" style="width:41%"></div></div><span class="n">335</span></div></td><td class="n" style="color:var(--gr)">213</td><td class="n" style="color:var(--re)">4</td></tr>
+        <tr><td>Installation &amp; maintenance</td><td><div class="bw"><div class="bbg" style="flex:0 0 80px"><div class="bfg" style="width:39%"></div></div><span class="n">319</span></div></td><td class="n" style="color:var(--gr)">208</td><td class="n" style="color:var(--re)">6</td></tr>
+        <tr><td>Indoor air quality</td><td><div class="bw"><div class="bbg" style="flex:0 0 80px"><div class="bfg" style="width:28%"></div></div><span class="n">229</span></div></td><td class="n" style="color:var(--gr)">178</td><td class="n" style="color:var(--re)">0</td></tr>
+        <tr><td>Smart connectivity &amp; control</td><td><div class="bw"><div class="bbg" style="flex:0 0 80px"><div class="bfg" style="width:22%"></div></div><span class="n">177</span></div></td><td class="n" style="color:var(--gr)">141</td><td class="n" style="color:var(--re)">0</td></tr>
+        <tr><td>Acoustic comfort</td><td><div class="bw"><div class="bbg" style="flex:0 0 80px"><div class="bfg" style="width:11%"></div></div><span class="n">92</span></div></td><td class="n" style="color:var(--gr)">84</td><td class="n" style="color:var(--re)">1</td></tr>
+      </tbody>
+    </table>
+
+  </div>
+  <a href="#" class="back">↑ Back to top</a>
+</div>
+
+<!-- ===== S3: AI RANKINGS ===== -->
+<div class="sec" id="s3">
+  <div class="sh">
+    <h2 class="stitle">AI Rankings</h2>
+    <div class="chips">
+      <span class="chip"><span class="dd" style="background:#1565C0"></span>Carrier</span>
+      <span class="chip">🤖 ChatGPT</span>
+      <span class="chip">Apr 16 – May 14, 2026</span>
+    </div>
+  </div>
+  <div class="sb">
+
+    <div class="kpis" style="grid-template-columns:repeat(6,1fr)">
+      <div class="kpi">
+        <div class="kl">Share of Voice</div>
+        <div class="kdesc">Carrier's share of all brand mentions</div>
+        <div class="kv" style="font-size:20px">11%</div>
+        <span class="dt up">▲ +3%</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Brand Visibility</div>
+        <div class="kdesc">% of responses mentioning Carrier</div>
+        <div class="kv" style="font-size:20px">15%</div>
+        <span class="dt up">▲ +3%</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Responses w/ Mentions</div>
+        <div class="kdesc">Unique responses containing brand name</div>
+        <div class="kv" style="font-size:20px">614</div>
+        <span class="dt up">▲ +128</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Total Mentions</div>
+        <div class="kdesc">All occurrences of brand name in responses</div>
+        <div class="kv" style="font-size:20px">642</div>
+        <span class="dt up">▲ +138</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Total Responses</div>
+        <div class="kdesc">All AI responses analyzed this period</div>
+        <div class="kv" style="font-size:20px">4,212</div>
+        <span class="dt dn">▼ −22</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Avg. Position</div>
+        <div class="kdesc">Mean rank when brand appears in a list</div>
+        <div class="kv" style="font-size:20px">3.6</div>
+        <span class="dt up">▲ +0.4</span>
+      </div>
+    </div>
+
+    <div class="cbox">
+      <div class="chd">Historical Trend — Share of Voice <span>Apr 16 – May 14, 2026 vs Mar 18 – Apr 15, 2026</span></div>
+      <svg viewBox="0 0 660 148" width="100%" style="display:block;overflow:visible">
+        <line x1="40" y1="18" x2="660" y2="18" stroke="#F0F2F6"/><line x1="40" y1="50" x2="660" y2="50" stroke="#F0F2F6"/>
+        <line x1="40" y1="82" x2="660" y2="82" stroke="#F0F2F6"/><line x1="40" y1="114" x2="660" y2="114" stroke="#F0F2F6"/>
+        <line x1="40" y1="128" x2="660" y2="128" stroke="#E5E8ED"/>
+        <text x="35" y="22" text-anchor="end" font-size="10" fill="#9BA8BA">14%</text>
+        <text x="35" y="54" text-anchor="end" font-size="10" fill="#9BA8BA">10%</text>
+        <text x="35" y="86" text-anchor="end" font-size="10" fill="#9BA8BA">7%</text>
+        <text x="35" y="118" text-anchor="end" font-size="10" fill="#9BA8BA">4%</text>
+        <text x="40" y="142" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 16</text>
+        <text x="141" y="142" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 21</text>
+        <text x="243" y="142" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 25</text>
+        <text x="345" y="142" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 30</text>
+        <text x="447" y="142" text-anchor="middle" font-size="10" fill="#9BA8BA">May 4</text>
+        <text x="549" y="142" text-anchor="middle" font-size="10" fill="#9BA8BA">May 9</text>
+        <text x="651" y="142" text-anchor="middle" font-size="10" fill="#9BA8BA">May 14</text>
+        <polyline points="40,65 141,18 243,34 345,34 447,26 549,49 651,42" fill="none" stroke="#4285F4" stroke-width="2.5"/>
+        <polyline points="40,89 141,73 243,65 345,73 447,73 549,81 651,89" fill="none" stroke="#90CAF9" stroke-width="2" stroke-dasharray="5,3"/>
+      </svg>
+      <div class="leg">
+        <div class="li"><div class="ld" style="background:#4285F4"></div>Carrier — Apr 16 – May 14, 2026 (current)</div>
+        <div class="li"><div class="ld" style="background:#90CAF9"></div>Carrier — Mar 18 – Apr 15, 2026 (previous)</div>
+      </div>
+    </div>
+
+    <div class="section-label">Prompt Rankings — Prompts Where Carrier Is Mentioned</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Prompt</th><th>Model</th><th>Intent</th>
+          <th>Days w/ Mention<br><span style="font-weight:400;text-transform:none;font-size:10px">Apr 16 – May 14</span></th>
+          <th>Days w/ Mention<br><span style="font-weight:400;text-transform:none;font-size:10px">Mar 18 – Apr 15</span></th>
+          <th>Avg. Position<br><span style="font-weight:400;text-transform:none;font-size:10px">Apr 16 – May 14</span></th>
+          <th>Avg. Position<br><span style="font-weight:400;text-transform:none;font-size:10px">Mar 18 – Apr 15</span></th>
+          <th>Topic Volume</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><a href="#">Which heat pumps get the highest ratings from US homeowners?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="color:var(--t2);font-size:12px">Informational</td><td class="n">29</td><td class="n">28</td><td class="n">2.5</td><td class="n">6.5</td><td class="n">978</td></tr>
+        <tr><td><a href="#">What are the most reliable air conditioner brands?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="color:var(--or);font-size:12px;font-weight:600">Commercial</td><td class="n">28</td><td class="n">28</td><td class="n">2.0</td><td class="n">2.8</td><td class="n">964</td></tr>
+        <tr><td><a href="#">Can you list the top-rated heat pumps for new homes?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="color:var(--t2);font-size:12px">Informational</td><td class="n">29</td><td class="n">15</td><td class="n">2.8</td><td class="n">4.3</td><td class="n">1,973</td></tr>
+        <tr><td><a href="#">Which air conditioners have the best warranty in the US?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="color:var(--t2);font-size:12px">Informational</td><td class="n">26</td><td class="n">25</td><td class="n">4.8</td><td class="n">4.8</td><td class="n">15</td></tr>
+        <tr><td><a href="#">Which heat pumps have the best warranty in the US?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="color:var(--t2);font-size:12px">Informational</td><td class="n">25</td><td class="n">25</td><td class="n">5.5</td><td class="n">5.5</td><td class="n">1,973</td></tr>
+        <tr><td><a href="#">Which air conditioners have the best warranties?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="color:var(--t2);font-size:12px">Informational</td><td class="n">25</td><td class="n">19</td><td class="n">5.0</td><td class="n">4.4</td><td class="n">15</td></tr>
+        <tr><td><a href="#">What are the leading brands of ductless systems?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="color:var(--t2);font-size:12px">Informational</td><td class="n">23</td><td class="n">14</td><td class="n">6.1</td><td class="n">7.8</td><td class="n">7</td></tr>
+        <tr><td><a href="#">Which heat pumps are best for both heating and cooling?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="color:var(--t2);font-size:12px">Informational</td><td class="n">22</td><td class="n">15</td><td class="n">3.9</td><td class="n">4.3</td><td class="n">167</td></tr>
+        <tr><td><a href="#">What are the most energy-efficient air conditioner models available?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="color:var(--t2);font-size:12px">Informational</td><td class="n">21</td><td class="n">12</td><td class="n">3.8</td><td class="n">4.9</td><td class="n">1,319</td></tr>
+        <tr><td><a href="#">Which heat pumps are most energy efficient for US homes?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="color:var(--t2);font-size:12px">Informational</td><td class="n">21</td><td class="n">9</td><td class="n">3.4</td><td class="n">2.1</td><td class="n">167</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="pg-note">Showing 10 of 146 prompts</div>
+
+    <div class="section-label">Tags Overview — Performance by Product Category Tag</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Tag</th>
+          <th>Mentions<br><span style="font-weight:400;text-transform:none;font-size:10px">Apr 16 – May 14</span></th>
+          <th>Mentions<br><span style="font-weight:400;text-transform:none;font-size:10px">Mar 18 – Apr 15</span></th>
+          <th>Mentions Delta</th>
+          <th>Share of Voice<br><span style="font-weight:400;text-transform:none;font-size:10px">Apr 16 – May 14</span></th>
+          <th>Share of Voice<br><span style="font-weight:400;text-transform:none;font-size:10px">Mar 18 – Apr 15</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><span class="tag-pill">heat pumps</span></td><td class="n">284</td><td class="n">189</td><td class="delta-up">+11</td><td class="n">37.7%</td><td class="n">22.0%</td></tr>
+        <tr><td><span class="tag-pill">air conditioners</span></td><td class="n">150</td><td class="n">121</td><td class="delta-up">+34</td><td class="n">10.2%</td><td class="n">7.3%</td></tr>
+        <tr><td><span class="tag-pill">(gap) seer2 rating</span></td><td class="n">142</td><td class="n">112</td><td class="delta-up">+30</td><td class="n">33.7%</td><td class="n">29.1%</td></tr>
+        <tr><td><span class="tag-pill">ductless systems</span></td><td class="n">64</td><td class="n">63</td><td class="delta-up">+4</td><td class="n">7.0%</td><td class="n">4.9%</td></tr>
+        <tr><td><span class="tag-pill">commercial products</span></td><td class="n">50</td><td class="n">98</td><td class="delta-dn">−16</td><td class="n">28.8%</td><td class="n" style="color:var(--re)">37.3%</td></tr>
+        <tr><td><span class="tag-pill">evaporator coils</span></td><td class="n">31</td><td class="n">44</td><td class="delta-dn">−13</td><td class="n">14.7%</td><td class="n">13.3%</td></tr>
+        <tr><td><span class="tag-pill">ventilators</span></td><td class="n">11</td><td class="n">9</td><td class="delta-up">+2</td><td class="n">1.8%</td><td class="n">1.8%</td></tr>
+        <tr><td><span class="tag-pill">thermostats</span></td><td class="n">6</td><td class="n">1</td><td class="delta-up">+5</td><td class="n">0.1%</td><td class="n">0.0%</td></tr>
+        <tr><td><span class="tag-pill">humidifiers</span></td><td class="n">3</td><td class="n">1</td><td class="delta-up">+2</td><td class="n">0.6%</td><td class="n">0.1%</td></tr>
+        <tr><td><span class="tag-pill">dehumidifiers</span></td><td class="n">0</td><td class="n">0</td><td class="delta-0">0</td><td class="n">0.0%</td><td class="n">0.0%</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+    <div class="section-label">Product Rankings — Individual Product Mentions</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Mentions<br><span style="font-weight:400;text-transform:none;font-size:10px">Apr 16 – May 14</span></th>
+          <th>Mentions<br><span style="font-weight:400;text-transform:none;font-size:10px">Mar 18 – Apr 15</span></th>
+          <th>Mentions Delta</th>
+          <th>Share of Voice<br><span style="font-weight:400;text-transform:none;font-size:10px">Apr 16 – May 14</span></th>
+          <th>Share of Voice<br><span style="font-weight:400;text-transform:none;font-size:10px">Mar 18 – Apr 15</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="hl"><td><strong>Carrier</strong> <span style="font-size:11px;color:var(--t2)">(brand total)</span></td><td class="n">330</td><td class="n">261</td><td class="delta-up">+39</td><td class="n">5.3%</td><td class="n">4.0%</td></tr>
+        <tr><td>Infinity</td><td class="n">47</td><td class="n">13</td><td class="delta-up">+34</td><td class="n">0.7%</td><td class="n">0.5%</td></tr>
+        <tr><td>Infinity Series</td><td class="n">42</td><td class="n">34</td><td class="delta-up">+8</td><td class="n">0.9%</td><td class="n">0.7%</td></tr>
+        <tr><td>Infinity Variable-Speed Heat Pump</td><td class="n">13</td><td class="n">3</td><td class="delta-up">+10</td><td class="n">0.8%</td><td class="n">0.8%</td></tr>
+        <tr><td>Infinity / Greenspeed</td><td class="n">9</td><td class="n">5</td><td class="delta-up">+4</td><td class="n">0.4%</td><td class="n">0.6%</td></tr>
+        <tr><td>Greenspeed</td><td class="n">8</td><td class="n">3</td><td class="delta-up">+5</td><td class="n">0.3%</td><td class="n">0.2%</td></tr>
+        <tr><td>Infinity 24</td><td class="n">7</td><td class="n">1</td><td class="delta-up">+6</td><td class="n">0.3%</td><td class="n">0.2%</td></tr>
+        <tr><td>Infinity 24 Heat Pump</td><td class="n">7</td><td class="n">2</td><td class="delta-up">+5</td><td class="n">0.5%</td><td class="n">1.1%</td></tr>
+        <tr><td>Infinity 26</td><td class="n">6</td><td class="n">6</td><td class="delta-0">0</td><td class="n">0.4%</td><td class="n">1.5%</td></tr>
+        <tr><td>Infinity / Performance series</td><td class="n">6</td><td class="n">1</td><td class="delta-up">+5</td><td class="n">0.4%</td><td class="n">0.6%</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="pg-note">Showing 10 of 140 products</div>
+
+    <div class="section-label">Query Fan-Outs — Prompts Generating Follow-Up Questions</div>
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Prompt / Query</th>
+          <th>Queries / Fan-Outs<br><span style="font-weight:400;text-transform:none;font-size:10px">number of follow-up questions generated by AI</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Which commercial HVAC systems have the lowest maintenance costs?</td><td class="n">24</td></tr>
+        <tr><td>Can you compare ductless systems by energy rebates and incentives?</td><td class="n">22</td></tr>
+        <tr><td>Which ductless systems are best for older homes?</td><td class="n">22</td></tr>
+        <tr><td>Which air conditioners have the lowest maintenance requirements?</td><td class="n">20</td></tr>
+        <tr><td>How do the prices of popular thermostats compare?</td><td class="n">20</td></tr>
+        <tr><td>How do heat recovery ventilators compare to energy recovery ventilators?</td><td class="n">20</td></tr>
+        <tr><td>What are some highly recommended thermostats for vacation homes?</td><td class="n">19</td></tr>
+        <tr><td>What are the best thermostats for people new to smart home devices?</td><td class="n">19</td></tr>
+        <tr><td>Are there air conditioners designed for pet owners?</td><td class="n">19</td></tr>
+        <tr><td>How do smart air conditioners compare to traditional models?</td><td class="n">19</td></tr>
+      </tbody>
+    </table>
+
+  </div>
+  <a href="#" class="back">↑ Back to top</a>
+</div>
+
+<!-- ===== S4: RANKINGS GAP ===== -->
+<div class="sec" id="s4">
+  <div class="sh">
+    <h2 class="stitle">Rankings Gap</h2>
+    <div class="chips">
+      <span class="chip"><span class="dd" style="background:#1565C0"></span>Carrier</span>
+      <span class="chip">🤖 ChatGPT</span>
+      <span class="chip">Apr 16 – May 14, 2026</span>
+    </div>
+  </div>
+  <div class="sb">
+
+    <div class="two" style="margin-bottom:20px">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div class="kpi">
+          <div class="kl">Avg. Prompt Gaps</div>
+          <div class="kdesc">Average number of daily prompts where competitors appear but Carrier does not</div>
+          <div class="kv">124.1</div>
+        </div>
+        <div class="kpi">
+          <div class="kl">Avg. Gap %</div>
+          <div class="kdesc">Share of all tracked prompts in which Carrier is absent (gap as % of total)</div>
+          <div class="kv">85.4%</div>
+        </div>
+      </div>
+      <div class="cbox" style="margin-bottom:0">
+        <div class="chd">Prompt Gaps Over Time <span>Apr 16 – May 14, 2026</span></div>
+        <svg viewBox="0 0 380 128" width="100%" style="display:block;overflow:visible">
+          <line x1="10" y1="18" x2="380" y2="18" stroke="#F0F2F6"/><line x1="10" y1="50" x2="380" y2="50" stroke="#F0F2F6"/>
+          <line x1="10" y1="82" x2="380" y2="82" stroke="#F0F2F6"/><line x1="10" y1="108" x2="380" y2="108" stroke="#E5E8ED"/>
+          <text x="8" y="22" text-anchor="end" font-size="10" fill="#9BA8BA">132</text>
+          <text x="8" y="54" text-anchor="end" font-size="10" fill="#9BA8BA">126</text>
+          <text x="8" y="86" text-anchor="end" font-size="10" fill="#9BA8BA">120</text>
+          <text x="8" y="112" text-anchor="end" font-size="10" fill="#9BA8BA">116</text>
+          <polyline points="10,18 38,30 65,41 93,35 120,41 148,30 175,64 203,41 230,47 258,30 285,75 312,97 340,108 367,86 380,97" fill="none" stroke="#4285F4" stroke-width="2"/>
+          <text x="10" y="122" font-size="10" fill="#9BA8BA">Apr 16</text>
+          <text x="195" y="122" text-anchor="middle" font-size="10" fill="#9BA8BA">May 1</text>
+          <text x="378" y="122" text-anchor="end" font-size="10" fill="#9BA8BA">May 14</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="section-label">Prompt Gap — Prompts Missing Carrier (competitors appear instead)</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead><tr><th>Prompt</th><th>Date</th><th>Model</th><th>Topic</th><th>Topic Volume</th><th>Ranking Brands</th><th># Brands</th></tr></thead>
+      <tbody>
+        <tr><td><a href="#">Which ventilators can be integrated with smart home systems?</a></td><td style="font-size:12px;color:var(--t2);white-space:nowrap">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12.5px">Smart Vents and HVAC</td><td class="n">1,046</td><td style="font-size:12px;color:var(--t2)">Pioneer, Commercial Electric, Flair, Keen…</td><td class="n">8</td></tr>
+        <tr><td><a href="#">Which ductless systems are best for garages or bonus rooms?</a></td><td style="font-size:12px;color:var(--t2);white-space:nowrap">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12.5px">Ductless HVAC Services</td><td class="n">7</td><td style="font-size:12px;color:var(--t2)">Fujitsu, Mitsubishi, Gree, Mr. Cool, LG…</td><td class="n">7</td></tr>
+        <tr><td><a href="#">What are the best air conditioners for cooling a large room?</a></td><td style="font-size:12px;color:var(--t2);white-space:nowrap">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12.5px">Absolutely Cool Air</td><td class="n">1,124</td><td style="font-size:12px;color:var(--t2)">Mitsubishi, Frigidaire, GE, LG, Daikin…</td><td class="n">7</td></tr>
+        <tr><td><a href="#">Which ductless systems are best for older homes?</a></td><td style="font-size:12px;color:var(--t2);white-space:nowrap">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12.5px">Ductless and Duct HVAC</td><td class="n">27</td><td style="font-size:12px;color:var(--t2)">Fujitsu, LG, MRCOOL, TCL…</td><td class="n">7</td></tr>
+        <tr><td><a href="#">Can you list the top-rated air conditioners for home use?</a></td><td style="font-size:12px;color:var(--t2);white-space:nowrap">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12.5px">All-Time Air Conditioners</td><td class="n">930</td><td style="font-size:12px;color:var(--t2)">Daikin, LG, GE, Senville, Wintera…</td><td class="n">7</td></tr>
+        <tr><td><a href="#">Which dehumidifiers have automatic drainage options?</a></td><td style="font-size:12px;color:var(--t2);white-space:nowrap">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12.5px">Dehumidifiers with Auto-Drain</td><td class="n">—</td><td style="font-size:12px;color:var(--t2)">hOmeLabs, Black+Decker, Frigidaire…</td><td class="n">7</td></tr>
+        <tr><td><a href="#">Which ductless systems have the best smart home integration?</a></td><td style="font-size:12px;color:var(--t2);white-space:nowrap">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12.5px">Smart Home Devices HVAC</td><td class="n">821</td><td style="font-size:12px;color:var(--t2)">Midea, Daikin, Cielo, LG, Friedrich…</td><td class="n">7</td></tr>
+        <tr><td><a href="#">Which ductless systems have the highest energy efficiency ratings?</a></td><td style="font-size:12px;color:var(--t2);white-space:nowrap">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12.5px">Energy Efficiency Ratings HVAC</td><td class="n">301</td><td style="font-size:12px;color:var(--t2)">LG, Daikin, Midea, Samsung…</td><td class="n">7</td></tr>
+        <tr><td><a href="#">What are the best ductless systems for whole-house cooling?</a></td><td style="font-size:12px;color:var(--t2);white-space:nowrap">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12.5px">Ductless HVAC Services</td><td class="n">—</td><td style="font-size:12px;color:var(--t2)">LG, Gree, Mitsubishi Electric…</td><td class="n">7</td></tr>
+        <tr><td><a href="#">Which humidifiers come with automatic shut-off?</a></td><td style="font-size:12px;color:var(--t2);white-space:nowrap">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12.5px">Auto Shut-Off Humidifiers</td><td class="n">718</td><td style="font-size:12px;color:var(--t2)">AquaOasis, Aprilaire, Honeywell…</td><td class="n">6</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="pg-note">Showing 10 of 3,598 gap prompts</div>
+
+    <div class="section-label">Outranking Competitors — Brands Appearing Where Carrier Is Absent</div>
+    <table class="tbl">
+      <thead><tr><th>Brand</th><th># of Prompts w/o Carrier<br><span style="font-weight:400;text-transform:none;font-size:10px">prompts where this brand ranks but Carrier doesn't</span></th><th>% of Total Gap Prompts</th></tr></thead>
+      <tbody>
+        <tr><td style="color:var(--t2);font-style:italic">No competing brand (generic response)</td><td><div class="bw"><div class="bbg" style="flex:0 0 120px"><div class="bfg" style="width:100%"></div></div><span class="n">1,244</span></div></td><td class="n">34.6%</td></tr>
+        <tr><td>Honeywell</td><td><div class="bw"><div class="bbg" style="flex:0 0 120px"><div class="bfg" style="width:48%"></div></div><span class="n">593</span></div></td><td class="n">16.5%</td></tr>
+        <tr><td>LG</td><td><div class="bw"><div class="bbg" style="flex:0 0 120px"><div class="bfg" style="width:43%"></div></div><span class="n">533</span></div></td><td class="n">14.8%</td></tr>
+        <tr><td>MRCOOL</td><td><div class="bw"><div class="bbg" style="flex:0 0 120px"><div class="bfg" style="width:36%"></div></div><span class="n">453</span></div></td><td class="n">12.6%</td></tr>
+        <tr><td>Midea</td><td><div class="bw"><div class="bbg" style="flex:0 0 120px"><div class="bfg" style="width:35%"></div></div><span class="n">438</span></div></td><td class="n">12.2%</td></tr>
+        <tr><td>Daikin</td><td><div class="bw"><div class="bbg" style="flex:0 0 120px"><div class="bfg" style="width:34%"></div></div><span class="n">422</span></div></td><td class="n">11.7%</td></tr>
+        <tr><td>Ecobee</td><td><div class="bw"><div class="bbg" style="flex:0 0 120px"><div class="bfg" style="width:31%"></div></div><span class="n">391</span></div></td><td class="n">10.9%</td></tr>
+        <tr><td>Levoit</td><td><div class="bw"><div class="bbg" style="flex:0 0 120px"><div class="bfg" style="width:31%"></div></div><span class="n">388</span></div></td><td class="n">10.8%</td></tr>
+        <tr><td>Google</td><td><div class="bw"><div class="bbg" style="flex:0 0 120px"><div class="bfg" style="width:31%"></div></div><span class="n">386</span></div></td><td class="n">10.7%</td></tr>
+        <tr><td>GE</td><td><div class="bw"><div class="bbg" style="flex:0 0 120px"><div class="bfg" style="width:21%"></div></div><span class="n">258</span></div></td><td class="n">7.2%</td></tr>
+      </tbody>
+    </table>
+    <div class="pg-note">Showing 10 of 631 outranking brands</div>
+
+    <div class="section-label">Gap Sources — URLs Cited in Prompts Where Carrier Is Absent</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead><tr><th>Source URL</th><th>Title</th><th>Count<br><span style="font-weight:400;text-transform:none;font-size:10px">prompts citing this URL</span></th><th>Associated Prompt Example</th></tr></thead>
+      <tbody>
+        <tr><td><a href="https://www.mrcooldiyshop.com/blogs/choosing-the-right-hvac-system/best">mrcooldiyshop.com/…</a></td><td style="font-size:12px">Best Mini Splits of 2026: Top 10 Ductless</td><td class="n">190</td><td style="font-size:12px;color:var(--t2)">Can you list ductless systems with the best heat…</td></tr>
+        <tr><td><a href="https://nuwattenergy.com/best-ductless-mini-splits">nuwattenergy.com/best-ductless-mini-splits</a></td><td style="font-size:12px">Best Ductless Mini-Split Heat Pumps 2026</td><td class="n">179</td><td style="font-size:12px;color:var(--t2)">Can you list ductless systems with the best heat…</td></tr>
+        <tr><td><a href="https://www.propelrc.com/best-ductless-mini-split-systems/">propelrc.com/best-ductless-mini-split-systems</a></td><td style="font-size:12px">Best Ductless Mini-Split Systems 2026</td><td class="n">179</td><td style="font-size:12px;color:var(--t2)">Can you list ductless systems with the best heat…</td></tr>
+        <tr><td><a href="https://www.rtings.com/humidifier/reviews/best/humidifiers">rtings.com/humidifier/reviews/best/humidifiers</a></td><td style="font-size:12px">The 4 Best Humidifiers of 2026 — RTINGS</td><td class="n">137</td><td style="font-size:12px;color:var(--t2)">How do different humidifier brands compare on…</td></tr>
+        <tr><td><a href="https://thetechsearch.com/best-smart-thermostats-2026">thetechsearch.com/best-smart-thermostats-2026</a></td><td style="font-size:12px">Best Smart Thermostats 2026: Ecobee…</td><td class="n">117</td><td style="font-size:12px;color:var(--t2)">How do the best-selling thermostats compare for…</td></tr>
+        <tr><td><a href="https://www.smarthomeexplorer.com/guides/best-smart-thermostats-2026/">smarthomeexplorer.com/guides/best-smart-thermostats-2026</a></td><td style="font-size:12px">Best Smart Thermostats of 2026</td><td class="n">108</td><td style="font-size:12px;color:var(--t2)">How do the prices of popular thermostats compare…</td></tr>
+        <tr><td><a href="https://www.bobvila.com/reviews/best-smart-thermostats-2026/">bobvila.com/reviews/best-smart-thermostats-2026</a></td><td style="font-size:12px">The Best Smart Thermostats of 2026</td><td class="n">108</td><td style="font-size:12px;color:var(--t2)">What are some highly recommended thermostats…</td></tr>
+        <tr><td><a href="https://www.consumerreports.org/appliances/thermostats/best-smart-the">consumerreports.org/appliances/thermostats/…</a></td><td style="font-size:12px">8 Best Smart Thermostats of 2026, Lab-Tested</td><td class="n">107</td><td style="font-size:12px;color:var(--t2)">How do the prices of popular thermostats compare…</td></tr>
+        <tr><td><a href="https://www.bryant.com/en-us/products/ventilators/">bryant.com/en-us/products/ventilators</a></td><td style="font-size:12px">Whole-House Ventilation Systems — HR…</td><td class="n">99</td><td style="font-size:12px;color:var(--t2)">How do the leading ventilators for HVAC compare…</td></tr>
+        <tr><td><a href="https://www.consumerreports.org/appliances/air-conditioners/best-mini">consumerreports.org/appliances/air-conditioners/…</a></td><td style="font-size:12px">3 Best Mini-Splits of 2026, Lab-Tested</td><td class="n">95</td><td style="font-size:12px;color:var(--t2)">Can you list ductless systems with the best heat…</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="pg-note">Showing 10 of 13,231 gap sources</div>
+
+  </div>
+  <a href="#" class="back">↑ Back to top</a>
+</div>
+
+<!-- ===== S5: TAG ANALYSIS ===== -->
+<div class="sec" id="s5">
+  <div class="sh">
+    <h2 class="stitle">Tag Analysis</h2>
+    <div class="chips">
+      <span class="chip"><span class="dd" style="background:#1565C0"></span>Carrier</span>
+      <span class="chip">🤖 ChatGPT</span>
+      <span class="chip">Apr 16 – May 14, 2026</span>
+    </div>
+  </div>
+  <div class="sb">
+    <div class="section-label">Tags Overview — Carrier Performance by Product Category</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Tag<br><span style="font-weight:400;text-transform:none;font-size:10px">product / topic category</span></th>
+          <th>Mentions ↓<br><span style="font-weight:400;text-transform:none;font-size:10px">Apr 16–May 14</span></th>
+          <th>Share of Voice<br><span style="font-weight:400;text-transform:none;font-size:10px">Carrier's % among all brands in this tag</span></th>
+          <th>Source Visibility<br><span style="font-weight:400;text-transform:none;font-size:10px">% of responses citing carrier.com for this tag</span></th>
+          <th>Avg. Position<br><span style="font-weight:400;text-transform:none;font-size:10px">mean rank in response lists</span></th>
+          <th>Prompts<br><span style="font-weight:400;text-transform:none;font-size:10px">unique prompts in this tag</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><span class="tag-pill">heat pumps</span></td><td class="n">284</td><td class="n">37.7%</td><td><div style="display:flex;align-items:center;gap:8px"><svg viewBox="0 0 36 36" width="36" height="36"><circle r="14" cx="18" cy="18" fill="none" stroke="#E5E8ED" stroke-width="5"/><circle r="14" cx="18" cy="18" fill="none" stroke="#FFA726" stroke-width="5" stroke-dasharray="40.2 47.8" transform="rotate(-90,18,18)"/><text x="18" y="22" text-anchor="middle" font-size="8" font-weight="700" fill="#1A2033" font-family="sans-serif">46%</text></svg></div></td><td class="n">3.6</td><td class="n">22</td></tr>
+        <tr><td><span class="tag-pill">air conditioners</span></td><td class="n">150</td><td class="n">10.2%</td><td><div style="display:flex;align-items:center;gap:8px"><svg viewBox="0 0 36 36" width="36" height="36"><circle r="14" cx="18" cy="18" fill="none" stroke="#E5E8ED" stroke-width="5"/><circle r="14" cx="18" cy="18" fill="none" stroke="#FFA726" stroke-width="5" stroke-dasharray="14.9 73.1" transform="rotate(-90,18,18)"/><text x="18" y="22" text-anchor="middle" font-size="8" font-weight="700" fill="#1A2033" font-family="sans-serif">17%</text></svg></div></td><td class="n">3.8</td><td class="n">31</td></tr>
+        <tr><td><span class="tag-pill">(gap) seer2 rating</span></td><td class="n">142</td><td class="n">33.7%</td><td><div style="display:flex;align-items:center;gap:8px"><svg viewBox="0 0 36 36" width="36" height="36"><circle r="14" cx="18" cy="18" fill="none" stroke="#E5E8ED" stroke-width="5"/><circle r="14" cx="18" cy="18" fill="none" stroke="#4CAF50" stroke-width="5" stroke-dasharray="48.4 39.6" transform="rotate(-90,18,18)"/><text x="18" y="22" text-anchor="middle" font-size="8" font-weight="700" fill="#1A2033" font-family="sans-serif">55%</text></svg></div></td><td class="n">3.7</td><td class="n">9</td></tr>
+        <tr><td><span class="tag-pill">ductless systems</span></td><td class="n">64</td><td class="n">7.0%</td><td><div style="display:flex;align-items:center;gap:8px"><svg viewBox="0 0 36 36" width="36" height="36"><circle r="14" cx="18" cy="18" fill="none" stroke="#E5E8ED" stroke-width="5"/><circle r="14" cx="18" cy="18" fill="none" stroke="#EF5350" stroke-width="5" stroke-dasharray="7.9 80.1" transform="rotate(-90,18,18)"/><text x="18" y="22" text-anchor="middle" font-size="8" font-weight="700" fill="#1A2033" font-family="sans-serif">9%</text></svg></div></td><td class="n">4.9</td><td class="n">25</td></tr>
+        <tr><td><span class="tag-pill">commercial products</span></td><td class="n">50</td><td class="n">28.8%</td><td><div style="display:flex;align-items:center;gap:8px"><svg viewBox="0 0 36 36" width="36" height="36"><circle r="14" cx="18" cy="18" fill="none" stroke="#E5E8ED" stroke-width="5"/><circle r="14" cx="18" cy="18" fill="none" stroke="#FFA726" stroke-width="5" stroke-dasharray="30.8 57.2" transform="rotate(-90,18,18)"/><text x="18" y="22" text-anchor="middle" font-size="8" font-weight="700" fill="#1A2033" font-family="sans-serif">35%</text></svg></div></td><td class="n">2.3</td><td class="n">5</td></tr>
+        <tr><td><span class="tag-pill">evaporator coils</span></td><td class="n">31</td><td class="n">14.7%</td><td><div style="display:flex;align-items:center;gap:8px"><svg viewBox="0 0 36 36" width="36" height="36"><circle r="14" cx="18" cy="18" fill="none" stroke="#E5E8ED" stroke-width="5"/><circle r="14" cx="18" cy="18" fill="none" stroke="#FFA726" stroke-width="5" stroke-dasharray="19.4 68.6" transform="rotate(-90,18,18)"/><text x="18" y="22" text-anchor="middle" font-size="8" font-weight="700" fill="#1A2033" font-family="sans-serif">22%</text></svg></div></td><td class="n">2.4</td><td class="n">5</td></tr>
+        <tr><td><span class="tag-pill">ventilators</span></td><td class="n">11</td><td class="n">1.8%</td><td><div style="display:flex;align-items:center;gap:8px"><svg viewBox="0 0 36 36" width="36" height="36"><circle r="14" cx="18" cy="18" fill="none" stroke="#E5E8ED" stroke-width="5"/><circle r="14" cx="18" cy="18" fill="none" stroke="#EF5350" stroke-width="5" stroke-dasharray="2.6 85.4" transform="rotate(-90,18,18)"/><text x="18" y="22" text-anchor="middle" font-size="8" font-weight="700" fill="#1A2033" font-family="sans-serif">3%</text></svg></div></td><td class="n">2.2</td><td class="n">13</td></tr>
+        <tr><td><span class="tag-pill">thermostats</span></td><td class="n">6</td><td class="n">0.1%</td><td><div style="display:flex;align-items:center;gap:8px"><svg viewBox="0 0 36 36" width="36" height="36"><circle r="14" cx="18" cy="18" fill="none" stroke="#E5E8ED" stroke-width="5"/><circle r="14" cx="18" cy="18" fill="none" stroke="#EF5350" stroke-width="5" stroke-dasharray="0.9 87.1" transform="rotate(-90,18,18)"/><text x="18" y="22" text-anchor="middle" font-size="8" font-weight="700" fill="#1A2033" font-family="sans-serif">1%</text></svg></div></td><td class="n">6.8</td><td class="n">20</td></tr>
+        <tr><td><span class="tag-pill">humidifiers</span></td><td class="n">3</td><td class="n">0.6%</td><td><div style="display:flex;align-items:center;gap:8px"><svg viewBox="0 0 36 36" width="36" height="36"><circle r="14" cx="18" cy="18" fill="none" stroke="#E5E8ED" stroke-width="5"/><circle r="14" cx="18" cy="18" fill="none" stroke="#EF5350" stroke-width="5" stroke-dasharray="0.9 87.1" transform="rotate(-90,18,18)"/><text x="18" y="22" text-anchor="middle" font-size="8" font-weight="700" fill="#1A2033" font-family="sans-serif">1%</text></svg></div></td><td class="n">4.3</td><td class="n">20</td></tr>
+        <tr><td><span class="tag-pill">dehumidifiers</span></td><td class="n">0</td><td class="n">0.0%</td><td><div style="display:flex;align-items:center;gap:8px"><svg viewBox="0 0 36 36" width="36" height="36"><circle r="14" cx="18" cy="18" fill="none" stroke="#E5E8ED" stroke-width="5"/><text x="18" y="22" text-anchor="middle" font-size="8" font-weight="700" fill="#9BA8BA" font-family="sans-serif">0%</text></svg></div></td><td class="n">—</td><td class="n">5</td></tr>
+      </tbody>
+    </table>
+    </div>
+  </div>
+  <a href="#" class="back">↑ Back to top</a>
+</div>
+
+<!-- ===== S6: CITATIONS ===== -->
+<div class="sec" id="s6">
+  <div class="sh">
+    <h2 class="stitle">Citations</h2>
+    <div class="chips">
+      <span class="chip"><span class="dd" style="background:#1565C0"></span>carrier.com</span>
+      <span class="chip">🤖 ChatGPT</span>
+      <span class="chip">Apr 16 – May 14, 2026</span>
+    </div>
+  </div>
+  <div class="sb">
+
+    <div class="kpis" style="grid-template-columns:repeat(4,1fr)">
+      <div class="kpi">
+        <div class="kl">Source Visibility</div>
+        <div class="kdesc">% of all ChatGPT responses that include a carrier.com URL</div>
+        <div class="kv">10%</div>
+      </div>
+      <div class="kpi">
+        <div class="kl">Responses w/ Citations</div>
+        <div class="kdesc">Number of responses that cite at least one carrier.com URL</div>
+        <div class="kv">434</div>
+      </div>
+      <div class="kpi">
+        <div class="kl">Total Citations</div>
+        <div class="kdesc">All carrier.com URL instances across all responses</div>
+        <div class="kv">615</div>
+      </div>
+      <div class="kpi">
+        <div class="kl">Total Responses Analyzed</div>
+        <div class="kdesc">All ChatGPT responses checked for carrier.com citations</div>
+        <div class="kv">4,169</div>
+      </div>
+    </div>
+
+    <div class="cbox">
+      <div class="chd">Historical Trend — Source Visibility by Domain <span>Apr 16 – May 14, 2026</span></div>
+      <svg viewBox="0 0 660 148" width="100%" style="display:block;overflow:visible">
+        <line x1="40" y1="18" x2="660" y2="18" stroke="#F0F2F6"/><line x1="40" y1="46" x2="660" y2="46" stroke="#F0F2F6"/>
+        <line x1="40" y1="74" x2="660" y2="74" stroke="#F0F2F6"/><line x1="40" y1="102" x2="660" y2="102" stroke="#F0F2F6"/>
+        <line x1="40" y1="120" x2="660" y2="120" stroke="#E5E8ED"/>
+        <text x="35" y="22" text-anchor="end" font-size="10" fill="#9BA8BA">50%</text>
+        <text x="35" y="50" text-anchor="end" font-size="10" fill="#9BA8BA">35%</text>
+        <text x="35" y="78" text-anchor="end" font-size="10" fill="#9BA8BA">25%</text>
+        <text x="35" y="106" text-anchor="end" font-size="10" fill="#9BA8BA">15%</text>
+        <text x="40" y="134" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 16</text>
+        <text x="243" y="134" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 25</text>
+        <text x="447" y="134" text-anchor="middle" font-size="10" fill="#9BA8BA">May 4</text>
+        <text x="651" y="134" text-anchor="middle" font-size="10" fill="#9BA8BA">May 14</text>
+        <polyline points="40,69 141,63 243,75 345,71 447,63 549,48 651,28" fill="none" stroke="#4285F4" stroke-width="2"/>
+        <polyline points="40,83 141,79 243,75 345,71 447,71 549,67 651,63" fill="none" stroke="#FFA726" stroke-width="2"/>
+        <polyline points="40,79 141,75 243,63 345,79 447,59 549,67 651,75" fill="none" stroke="#34A853" stroke-width="2"/>
+        <polyline points="40,89 141,84 243,89 345,84 447,84 549,79 651,84" fill="none" stroke="#EA4335" stroke-width="2"/>
+        <polyline points="40,89 141,89 243,84 345,89 447,84 549,89 651,84" fill="none" stroke="#9C27B0" stroke-width="2"/>
+        <polyline points="40,99 141,99 243,89 345,99 447,99 549,94 651,94" fill="none" stroke="#00BCD4" stroke-width="2"/>
+        <polyline points="40,104 141,107 243,99 345,104 447,107 549,99 651,99" fill="none" stroke="#FF5722" stroke-width="2"/>
+      </svg>
+      <div class="leg">
+        <div class="li"><div class="ld" style="background:#4285F4"></div>reddit.com</div>
+        <div class="li"><div class="ld" style="background:#FFA726"></div>hvacbase.org</div>
+        <div class="li"><div class="ld" style="background:#34A853"></div>consumerreports.org</div>
+        <div class="li"><div class="ld" style="background:#EA4335"></div>pickhvac.com</div>
+        <div class="li"><div class="ld" style="background:#9C27B0"></div>bobvila.com</div>
+        <div class="li"><div class="ld" style="background:#00BCD4"></div>thefurnaceoutlet.com</div>
+        <div class="li"><div class="ld" style="background:#FF5722"></div>nuwattenergy.com</div>
+      </div>
+    </div>
+
+    <div class="section-label">Prompt Citations — carrier.com URLs Cited in These Prompts</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Prompt</th><th>Model</th><th>Topic</th><th>Topic Volume</th>
+          <th>Visibility<br><span style="font-weight:400;text-transform:none;font-size:10px">% responses citing carrier.com</span></th>
+          <th>URLs Cited<br><span style="font-weight:400;text-transform:none;font-size:10px">carrier.com URLs in response</span></th>
+          <th>Total Citations<br><span style="font-weight:400;text-transform:none;font-size:10px">all domains cited</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><a href="#">What are the differences between single-zone and multi-zone systems?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px">Multi-Zone Air Handling Units</td><td class="n">1</td><td class="n">89%</td><td class="n">3</td><td class="n">72</td></tr>
+        <tr><td><a href="#">Which heat pumps qualify for federal tax credits or rebates?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px">Heat Pump and Rebates Program</td><td class="n">382</td><td class="n">71%</td><td class="n">2</td><td class="n">80</td></tr>
+        <tr><td><a href="#">What are common types of ventilators used in residential HVAC?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px">Ventilators and Respiratory</td><td class="n">12,170</td><td class="n">71%</td><td class="n">10</td><td class="n">80</td></tr>
+        <tr><td><a href="#">What is the difference between single-zone and multi-zone systems?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px">Multi-Zone Air Handling Units</td><td class="n">1</td><td class="n">71%</td><td class="n">4</td><td class="n">82</td></tr>
+        <tr><td><a href="#">Can you compare ductless systems by energy rebates and incentives?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px">Energy Rebates and Efficiency</td><td class="n">850</td><td class="n">89%</td><td class="n">3</td><td class="n">80</td></tr>
+        <tr><td><a href="#">How do central air conditioners compare to ductless systems?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px">Central Air Conditioning and HVAC</td><td class="n">1,570</td><td class="n">89%</td><td class="n">4</td><td class="n">60</td></tr>
+        <tr><td><a href="#">How do central air and ductless air conditioners compare?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px">Central Air Conditioning and HVAC</td><td class="n">1,570</td><td class="n">89%</td><td class="n">4</td><td class="n">42</td></tr>
+        <tr><td><a href="#">How do ductless systems compare by price and installation?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px">Ductless HVAC Services</td><td class="n">7</td><td class="n">59%</td><td class="n">2</td><td class="n">43</td></tr>
+        <tr><td><a href="#">What are the prices and cons of heat pumps versus traditional HVAC?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px">Heat Pump Advantages and Disadvantages</td><td class="n">3,840</td><td class="n">51%</td><td class="n">4</td><td class="n">30</td></tr>
+        <tr><td><a href="#">Which ductless systems are best for garages or bonus rooms?</a></td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px">Ductless HVAC Services</td><td class="n">7</td><td class="n">52%</td><td class="n">1</td><td class="n">32</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="pg-note">Showing 10 of 149 cited prompts</div>
+
+    <div class="two" style="margin-top:20px">
+      <div style="display:flex;flex-direction:column;gap:12px">
+        <div class="kpi">
+          <div class="kl">Citation Gap</div>
+          <div class="kdesc">Average daily prompts where competing sources are cited but carrier.com is not</div>
+          <div class="kv">128.8</div>
+        </div>
+        <div class="kpi">
+          <div class="kl">Citation Gap %</div>
+          <div class="kdesc">Share of all tracked prompts where carrier.com is absent from citations</div>
+          <div class="kv">89.6%</div>
+        </div>
+      </div>
+      <div>
+        <div class="chd" style="margin-bottom:10px">Citation Gap — Competing Domains Being Cited Instead</div>
+        <table class="tbl">
+          <thead><tr><th>Domain</th><th>Unique Prompts<br><span style="font-weight:400;text-transform:none;font-size:10px">prompts citing this domain</span></th><th>Total Responses</th></tr></thead>
+          <tbody>
+            <tr><td><a href="#">reddit.com</a></td><td class="n">141</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:100%"></div></div><span class="n">858</span></div></td></tr>
+            <tr><td><a href="#">consumerreports.org</a></td><td class="n">104</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:79%"></div></div><span class="n">679</span></div></td></tr>
+            <tr><td><a href="#">pickhvac.com</a></td><td class="n">89</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:100%"></div></div><span class="n">864</span></div></td></tr>
+            <tr><td><a href="#">forbes.com</a></td><td class="n">83</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:72%"></div></div><span class="n">622</span></div></td></tr>
+            <tr><td><a href="#">homedepot.com</a></td><td class="n">83</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:56%"></div></div><span class="n">479</span></div></td></tr>
+            <tr><td><a href="#">hvacbase.org</a></td><td class="n">80</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:50%"></div></div><span class="n">430</span></div></td></tr>
+            <tr><td><a href="#">thefurnaceoutlet.com</a></td><td class="n">76</td><td><div class="bw"><div class="bbg"><div class="bfg" style="width:73%"></div></div><span class="n">627</span></div></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="section-label">Citation Gap — Prompts Where carrier.com Is Not Cited (but competitors are)</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead><tr><th>Prompt</th><th>Date</th><th>Model</th><th>Cited Domains (competitors)</th></tr></thead>
+      <tbody>
+        <tr><td><a href="#">Which whole-house humidifiers are most popular?</a></td><td style="font-size:12px;color:var(--t2)">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px;color:var(--t2)">sylvane.com, redlecs.com, freshhumidifier.com, reddit.com…</td></tr>
+        <tr><td><a href="#">Which ventilators have the best filtration systems for homes?</a></td><td style="font-size:12px;color:var(--t2)">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px;color:var(--t2)">toolbeforetheybu.com, lowes.com, rtings.com, reddit.com…</td></tr>
+        <tr><td><a href="#">Which ventilators can be integrated with smart home systems?</a></td><td style="font-size:12px;color:var(--t2)">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px;color:var(--t2)">ecobee.com, reddit.com, home-assistant.io, 2nexac.io…</td></tr>
+        <tr><td><a href="#">Which ventilators are recommended for basements?</a></td><td style="font-size:12px;color:var(--t2)">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px;color:var(--t2)">airxcel.com, reddit.com, hvacquick.com…</td></tr>
+        <tr><td><a href="#">Which types of humidifiers are best for large rooms?</a></td><td style="font-size:12px;color:var(--t2)">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px;color:var(--t2)">homedepot.com, yourcoolclima.com, airweather.com…</td></tr>
+        <tr><td><a href="#">Which thermostats work with multiple zones?</a></td><td style="font-size:12px;color:var(--t2)">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px;color:var(--t2)">smarthomeexplorer.com, pickhvac.com, tghp.com…</td></tr>
+        <tr><td><a href="#">Which thermostats are easiest to install yourself?</a></td><td style="font-size:12px;color:var(--t2)">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px;color:var(--t2)">girlsndthese.com, smartthermostats.com…</td></tr>
+        <tr><td><a href="#">Which thermostats are compatible with older HVAC systems?</a></td><td style="font-size:12px;color:var(--t2)">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px;color:var(--t2)">getmypa.com, cojorest.com, helenmarceforthem.com…</td></tr>
+        <tr><td><a href="#">Which thermostats are best for energy savings?</a></td><td style="font-size:12px;color:var(--t2)">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px;color:var(--t2)">consumerreports.org, thetechsearch.com…</td></tr>
+        <tr><td><a href="#">Which smart thermostats work with both Alexa and Google Home?</a></td><td style="font-size:12px;color:var(--t2)">May 14, 2026</td><td><span class="mi" style="background:#74AA9C">C</span></td><td style="font-size:12px;color:var(--t2)">hvacbase.org, homeagardless.com, techradar.com…</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="pg-note">Showing 10 of 2,735 citation gap prompts</div>
+
+    <div class="section-label">Citations by Tag — Performance per Product Category</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Tag</th>
+          <th>Responses w/ Citations<br><span style="font-weight:400;text-transform:none;font-size:10px">responses citing carrier.com in this tag</span></th>
+          <th>Visibility Change<br><span style="font-weight:400;text-transform:none;font-size:10px">vs prev period</span></th>
+          <th>Total Responses<br><span style="font-weight:400;text-transform:none;font-size:10px">all responses in this tag</span></th>
+          <th>Avg. Position<br><span style="font-weight:400;text-transform:none;font-size:10px">carrier.com citation rank</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><span class="tag-pill">ductless systems</span></td><td class="n">151</td><td class="delta-dn">▼ −21%</td><td class="n">714</td><td class="n">8.2</td></tr>
+        <tr><td><span class="tag-pill">ventilators</span></td><td class="n">79</td><td class="delta-dn">▼ −20%</td><td class="n">378</td><td class="n">9.0</td></tr>
+        <tr><td><span class="tag-pill">air conditioners</span></td><td class="n">—</td><td class="delta-dn">▼ −8%</td><td class="n">882</td><td class="n">9.7</td></tr>
+        <tr><td><span class="tag-pill">heat pumps</span></td><td class="n">70</td><td class="delta-dn">▼ −11%</td><td class="n">632</td><td class="n">10.2</td></tr>
+        <tr><td><span class="tag-pill">evaporator coils</span></td><td class="n">46</td><td class="delta-up">▲ +32%</td><td class="n">144</td><td class="n">6.7</td></tr>
+        <tr><td><span class="tag-pill">(gap) seer2 rating</span></td><td class="n">25</td><td class="delta-dn">▼ −10%</td><td class="n">257</td><td class="n">7.1</td></tr>
+        <tr><td><span class="tag-pill">thermostats</span></td><td class="n">—</td><td class="delta-dn">▼ −1%</td><td class="n">563</td><td class="n">9.1</td></tr>
+        <tr><td><span class="tag-pill">commercial products</span></td><td class="n">5</td><td class="delta-dn">▼ −9%</td><td class="n">144</td><td class="n">8.2</td></tr>
+        <tr><td><span class="tag-pill">humidifiers</span></td><td class="n">8</td><td class="delta-dn">▼ −3%</td><td class="n">578</td><td class="n">8.9</td></tr>
+        <tr><td><span class="tag-pill">dehumidifiers</span></td><td class="n">9</td><td class="delta-dn">▼ −8%</td><td class="n">144</td><td class="n">—</td></tr>
+      </tbody>
+    </table>
+    </div>
+
+  </div>
+  <a href="#" class="back">↑ Back to top</a>
+</div>
+
+<!-- ===== S7: SOURCE ANALYSIS ===== -->
+<div class="sec" id="s7">
+  <div class="sh">
+    <h2 class="stitle">Source Analysis</h2>
+    <div class="chips">
+      <span class="chip">🤖 ChatGPT</span>
+      <span class="chip">Apr 16 – May 14, 2026</span>
+    </div>
+  </div>
+  <div class="sb">
+
+    <div class="cbox">
+      <div class="chd">Historical Trend — Source Visibility by Domain <span>Apr 16 – May 14, 2026</span></div>
+      <svg viewBox="0 0 660 148" width="100%" style="display:block;overflow:visible">
+        <line x1="40" y1="18" x2="660" y2="18" stroke="#F0F2F6"/><line x1="40" y1="46" x2="660" y2="46" stroke="#F0F2F6"/>
+        <line x1="40" y1="74" x2="660" y2="74" stroke="#F0F2F6"/><line x1="40" y1="102" x2="660" y2="102" stroke="#F0F2F6"/>
+        <line x1="40" y1="120" x2="660" y2="120" stroke="#E5E8ED"/>
+        <text x="35" y="22" text-anchor="end" font-size="10" fill="#9BA8BA">50%</text>
+        <text x="35" y="50" text-anchor="end" font-size="10" fill="#9BA8BA">35%</text>
+        <text x="35" y="78" text-anchor="end" font-size="10" fill="#9BA8BA">25%</text>
+        <text x="35" y="106" text-anchor="end" font-size="10" fill="#9BA8BA">15%</text>
+        <text x="40" y="134" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 16</text>
+        <text x="243" y="134" text-anchor="middle" font-size="10" fill="#9BA8BA">Apr 25</text>
+        <text x="447" y="134" text-anchor="middle" font-size="10" fill="#9BA8BA">May 4</text>
+        <text x="651" y="134" text-anchor="middle" font-size="10" fill="#9BA8BA">May 14</text>
+        <polyline points="40,69 141,63 243,75 345,71 447,63 549,48 651,28" fill="none" stroke="#4285F4" stroke-width="2"/>
+        <polyline points="40,83 141,79 243,75 345,71 447,71 549,67 651,63" fill="none" stroke="#FFA726" stroke-width="2"/>
+        <polyline points="40,79 141,75 243,63 345,79 447,59 549,67 651,75" fill="none" stroke="#34A853" stroke-width="2"/>
+        <polyline points="40,89 141,84 243,89 345,84 447,84 549,79 651,84" fill="none" stroke="#EA4335" stroke-width="2"/>
+        <polyline points="40,89 141,89 243,84 345,89 447,84 549,89 651,84" fill="none" stroke="#9C27B0" stroke-width="2"/>
+        <polyline points="40,99 141,99 243,89 345,99 447,99 549,94 651,94" fill="none" stroke="#00BCD4" stroke-width="2"/>
+        <polyline points="40,104 141,107 243,99 345,104 447,107 549,99 651,99" fill="none" stroke="#FF5722" stroke-width="2"/>
+      </svg>
+      <div class="leg">
+        <div class="li"><div class="ld" style="background:#4285F4"></div>reddit.com</div>
+        <div class="li"><div class="ld" style="background:#FFA726"></div>hvacbase.org</div>
+        <div class="li"><div class="ld" style="background:#34A853"></div>consumerreports.org</div>
+        <div class="li"><div class="ld" style="background:#EA4335"></div>pickhvac.com</div>
+        <div class="li"><div class="ld" style="background:#9C27B0"></div>bobvila.com</div>
+        <div class="li"><div class="ld" style="background:#00BCD4"></div>thefurnaceoutlet.com</div>
+        <div class="li"><div class="ld" style="background:#FF5722"></div>nuwattenergy.com</div>
+      </div>
+    </div>
+
+    <div class="two">
+      <div class="cbox" style="margin-bottom:0">
+        <div class="chd">AI Sources by Type — All Domains</div>
+        <div style="display:flex;align-items:center;gap:20px;margin-top:8px">
+          <svg viewBox="0 0 120 120" width="120" height="120" style="flex-shrink:0">
+            <circle r="42" cx="60" cy="60" fill="none" stroke="#E5E8ED" stroke-width="18"/>
+            <circle r="42" cx="60" cy="60" fill="none" stroke="#CFD8DC" stroke-width="18" stroke-dasharray="229.6 34.3" stroke-dashoffset="0" transform="rotate(-90,60,60)"/>
+            <circle r="42" cx="60" cy="60" fill="none" stroke="#4285F4" stroke-width="18" stroke-dasharray="10.6 253.3" stroke-dashoffset="-229.6" transform="rotate(-90,60,60)"/>
+            <circle r="42" cx="60" cy="60" fill="none" stroke="#EA4335" stroke-width="18" stroke-dasharray="10.6 253.3" stroke-dashoffset="-240.2" transform="rotate(-90,60,60)"/>
+            <circle r="42" cx="60" cy="60" fill="none" stroke="#FFA726" stroke-width="18" stroke-dasharray="10.6 253.3" stroke-dashoffset="-250.8" transform="rotate(-90,60,60)"/>
+            <circle r="42" cx="60" cy="60" fill="none" stroke="#34A853" stroke-width="18" stroke-dasharray="2.6 261.3" stroke-dashoffset="-261.4" transform="rotate(-90,60,60)"/>
+            <text x="60" y="64" text-anchor="middle" font-size="10" font-weight="700" fill="#1A2033" font-family="sans-serif">58K</text>
+          </svg>
+          <div style="display:flex;flex-direction:column;gap:6px">
+            <div class="li"><div class="ld" style="background:#CFD8DC"></div>Other — 51,501 <span style="color:var(--t3)">(87%)</span></div>
+            <div class="li"><div class="ld" style="background:#4285F4"></div>Earned media — 2,638 <span style="color:var(--t3)">(4%)</span></div>
+            <div class="li"><div class="ld" style="background:#EA4335"></div>Benchmark Competitors — 2,211 <span style="color:var(--t3)">(4%)</span></div>
+            <div class="li"><div class="ld" style="background:#FFA726"></div>Social — 2,075 <span style="color:var(--t3)">(4%)</span></div>
+            <div class="li"><div class="ld" style="background:#34A853"></div>Owned (carrier.com) — 615 <span style="color:var(--t3)">(1%)</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="cbox" style="margin-bottom:0">
+        <div class="chd" style="margin-bottom:8px">AI Source Changes — Citations Momentum</div>
+        <div style="font-size:12px;color:var(--t2);line-height:1.6">
+          <p style="margin:0 0 6px">Leading sources gaining citations vs prior period:</p>
+          <div style="display:flex;flex-direction:column;gap:4px">
+            <div style="display:flex;justify-content:space-between"><span>reddit.com</span><span class="delta-up">+86 citations</span></div>
+            <div style="display:flex;justify-content:space-between"><span>consumerreports.org</span><span class="delta-up">+27 citations</span></div>
+            <div style="display:flex;justify-content:space-between"><span>nuwattenergy.com</span><span class="delta-up">+23 citations</span></div>
+            <div style="display:flex;justify-content:space-between"><span>pickhvac.com</span><span class="delta-up">+29 citations</span></div>
+            <div style="display:flex;justify-content:space-between"><span>goodhousekeeping.com</span><span class="delta-up">+4 citations</span></div>
+            <div style="display:flex;justify-content:space-between"><span>homedepot.com</span><span class="delta-dn">−36 citations</span></div>
+            <div style="display:flex;justify-content:space-between"><span>thefurnaceoutlet.com</span><span class="delta-dn">−12 citations</span></div>
+            <div style="display:flex;justify-content:space-between"><span style="font-weight:600">carrier.com</span><span class="delta-dn">−8 citations</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label">Source Domains Table — Citations, Visibility &amp; Reach (10 of 4,585 domains)</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Source Domain</th>
+          <th>Type</th>
+          <th>Citations<br><span style="font-weight:400;text-transform:none;font-size:10px">May 14, 2026</span></th>
+          <th>Citations Change<br><span style="font-weight:400;text-transform:none;font-size:10px">vs prev period</span></th>
+          <th>Avg. Position<br><span style="font-weight:400;text-transform:none;font-size:10px">rank within response</span></th>
+          <th>Source Visibility<br><span style="font-weight:400;text-transform:none;font-size:10px">% of responses citing domain</span></th>
+          <th>Agg. Citations<br><span style="font-weight:400;text-transform:none;font-size:10px">total over date range</span></th>
+          <th>Responses w/ Citation<br><span style="font-weight:400;text-transform:none;font-size:10px">unique responses</span></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><a href="#">consumerreports.org</a></td><td style="font-size:12px;color:var(--t2)">Other</td><td class="n">78</td><td class="delta-up">+27 ↑</td><td class="n">6.2</td><td class="n">24.7%</td><td class="n">1,848</td><td class="n">1,029</td></tr>
+        <tr><td><a href="#">reddit.com</a></td><td style="font-size:12px;color:var(--t2)">Social</td><td class="n">164</td><td class="delta-up">+86 ↑</td><td class="n">6.3</td><td class="n">18.3%</td><td class="n">1,701</td><td class="n">765</td></tr>
+        <tr><td><a href="#">pickhvac.com</a></td><td style="font-size:12px;color:var(--t2)">Other</td><td class="n">57</td><td class="delta-up">+29 ↑</td><td class="n">9.0</td><td class="n">22.5%</td><td class="n">1,350</td><td class="n">939</td></tr>
+        <tr><td><a href="#">homedepot.com</a></td><td style="font-size:12px;color:var(--t2)">Benchmark Comp.</td><td class="n">11</td><td class="delta-dn">−36 ↓</td><td class="n">7.6</td><td class="n">12.6%</td><td class="n">1,307</td><td class="n">524</td></tr>
+        <tr><td><a href="#">thefurnaceoutlet.com</a></td><td style="font-size:12px;color:var(--t2)">Other</td><td class="n">27</td><td class="delta-dn">−12 ↓</td><td class="n">8.7</td><td class="n">16.8%</td><td class="n">1,164</td><td class="n">701</td></tr>
+        <tr><td><a href="#">forbes.com</a></td><td style="font-size:12px;color:var(--t2)">Earned</td><td class="n">20</td><td class="delta-dn">−10 ↓</td><td class="n">7.7</td><td class="n">15.9%</td><td class="n">789</td><td class="n">664</td></tr>
+        <tr><td><a href="#">goodhousekeeping.com</a></td><td style="font-size:12px;color:var(--t2)">Earned</td><td class="n">29</td><td class="delta-up">+4 ↑</td><td class="n">6.5</td><td class="n">11.0%</td><td class="n">671</td><td class="n">458</td></tr>
+        <tr><td><a href="#">nuwattenergy.com</a></td><td style="font-size:12px;color:var(--t2)">Other</td><td class="n">29</td><td class="delta-up">+23 ↑</td><td class="n">8.8</td><td class="n">12.4%</td><td class="n">647</td><td class="n">515</td></tr>
+        <tr><td><a href="#">bobvila.com</a></td><td style="font-size:12px;color:var(--t2)">Other</td><td class="n">22</td><td class="delta-up">+2 ↑</td><td class="n">10.8</td><td class="n">11.7%</td><td class="n">635</td><td class="n">489</td></tr>
+        <tr class="hl"><td><a href="#">carrier.com</a> <strong>(Owned)</strong></td><td style="font-size:12px;color:var(--t2)">Owned</td><td class="n">11</td><td class="delta-dn">−8 ↓</td><td class="n">7.6</td><td class="n">10.4%</td><td class="n">615</td><td class="n">434</td></tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="pg-note">Showing 10 of 4,585 domains · All citations total: 50,000+</div>
+
+  </div>
+  <a href="#" class="back">↑ Back to top</a>
+</div>
+
+<!-- ===== S8: GLOBAL RANKINGS ===== -->
+<div class="sec" id="s8">
+  <div class="sh">
+    <h2 class="stitle">Global Rankings</h2>
+    <div class="chips">
+      <span class="chip">Last 30 days</span>
+      <span class="chip">🤖 ChatGPT</span>
+      <span class="chip">4 projects selected</span>
+    </div>
+  </div>
+  <div class="sb">
+
+    <div class="kpis" style="grid-template-columns:repeat(6,1fr)">
+      <div class="kpi">
+        <div class="kl">Share of Voice</div>
+        <div class="kdesc">Aggregate SoV across all 4 AIO projects</div>
+        <div class="kv" style="font-size:20px">13%</div>
+        <span class="dt dn">▼ −0%</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Brand Visibility</div>
+        <div class="kdesc">% of responses with brand mention, all projects</div>
+        <div class="kv" style="font-size:20px">9%</div>
+        <span class="dt dn">▼ −0%</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Responses w/ Mentions</div>
+        <div class="kdesc">Responses containing a tracked brand name</div>
+        <div class="kv" style="font-size:20px">1,135</div>
+        <span class="dt up">▲ +32</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Total Mentions</div>
+        <div class="kdesc">All brand name occurrences across all projects</div>
+        <div class="kv" style="font-size:20px">1,549</div>
+        <span class="dt dn">▼ −79</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Total Responses</div>
+        <div class="kdesc">All AI responses analyzed across all 4 projects</div>
+        <div class="kv" style="font-size:20px">12,236</div>
+        <span class="dt up">▲ +876</span>
+      </div>
+      <div class="kpi">
+        <div class="kl">Avg. Position</div>
+        <div class="kdesc">Mean rank when brand appears, all projects</div>
+        <div class="kv" style="font-size:20px">2.7</div>
+        <span class="dt up">▲ +0.3</span>
+      </div>
+    </div>
+
+    <div class="section-label">Brand Performance per Project — All AIO Projects in Account</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Project</th><th>Country</th><th>Mentions</th><th>Responses w/ Mentions</th>
+          <th>Share of Voice<br><span style="font-weight:400;text-transform:none;font-size:10px">% of competitor mentions</span></th>
+          <th>Visibility<br><span style="font-weight:400;text-transform:none;font-size:10px">% of responses</span></th>
+          <th>Avg. Position</th><th>Total Responses</th><th>Unique Prompts</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="hl">
+          <td><strong>Carrier AIO</strong></td>
+          <td>🇺🇸 US</td>
+          <td class="n">1</td><td class="n">1</td>
+          <td class="n">0%</td><td class="n">0%</td>
+          <td class="n">2</td><td class="n">4,212</td><td class="n">146</td>
+        </tr>
+        <tr>
+          <td>Apple AIO</td>
+          <td>🇺🇸 US</td>
+          <td class="n">1,528</td><td class="n">1,116</td>
+          <td><div class="bw"><div class="bbg"><div class="bfg" style="width:100%"></div></div><span class="n">64.3%</span></div></td>
+          <td class="n">75%</td>
+          <td class="n">2.6</td><td class="n">1,479</td><td class="n">51</td>
+        </tr>
+        <tr>
+          <td>Bike24 US (Demo)</td>
+          <td>🇺🇸 US</td>
+          <td class="n">18</td><td class="n">16</td>
+          <td class="n">0.4%</td><td class="n">1%</td>
+          <td class="n">4.9</td><td class="n">2,915</td><td class="n">101</td>
+        </tr>
+        <tr>
+          <td>Norwegian</td>
+          <td>🇸🇪 SE</td>
+          <td class="n">2</td><td class="n">2</td>
+          <td class="n">0%</td><td class="n">0%</td>
+          <td class="n">3</td><td class="n">3,630</td><td class="n">121</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+    <div class="pg-note">4 of 4 projects</div>
+
+  </div>
+  <a href="#" class="back">↑ Back to top</a>
+</div>
+
+<!-- ===== S9: BENCHMARK INTELLIGENCE ===== -->
+<div class="sec" id="s9">
+  <div class="sh">
+    <h2 class="stitle">Benchmark Intelligence</h2>
+    <div class="chips">
+      <span class="chip">5 domains</span>
+      <span class="chip">🇺🇸 US</span>
+      <span class="chip">Oct 2025 – Apr 2026</span>
+    </div>
+  </div>
+  <div class="sb">
+
+    <div class="two">
+      <div class="cbox" style="margin-bottom:0">
+        <div class="chd">Benchmark Visits Trend — AI-Referred Traffic <span>Oct 2025 – Apr 2026</span></div>
+        <svg viewBox="0 0 380 158" width="100%" style="display:block;overflow:visible">
+          <line x1="10" y1="18" x2="380" y2="18" stroke="#F0F2F6"/><line x1="10" y1="53" x2="380" y2="53" stroke="#F0F2F6"/>
+          <line x1="10" y1="88" x2="380" y2="88" stroke="#F0F2F6"/><line x1="10" y1="123" x2="380" y2="123" stroke="#E5E8ED"/>
+          <text x="8" y="22" text-anchor="end" font-size="10" fill="#9BA8BA">7K</text>
+          <text x="8" y="57" text-anchor="end" font-size="10" fill="#9BA8BA">4.5K</text>
+          <text x="8" y="92" text-anchor="end" font-size="10" fill="#9BA8BA">2.5K</text>
+          <text x="8" y="127" text-anchor="end" font-size="10" fill="#9BA8BA">0.5K</text>
+          <text x="10" y="144" font-size="10" fill="#9BA8BA">Oct 1</text>
+          <text x="93" y="144" text-anchor="middle" font-size="10" fill="#9BA8BA">Dec 1</text>
+          <text x="251" y="144" text-anchor="middle" font-size="10" fill="#9BA8BA">Feb 1</text>
+          <text x="370" y="144" text-anchor="end" font-size="10" fill="#9BA8BA">Apr 1</text>
+          <!-- york.com: peaks high early -->
+          <polyline points="10,31 64,18 118,18 173,88 228,122 282,122 336,122 370,122" fill="none" stroke="#4285F4" stroke-width="2"/>
+          <!-- trane.com: 3-4K -->
+          <polyline points="10,64 64,48 118,48 173,64 228,72 282,80 336,88 370,88" fill="none" stroke="#FFA726" stroke-width="2"/>
+          <!-- lennox.com: 1-2K -->
+          <polyline points="10,113 64,97 118,97 173,97 228,105 282,113 336,113 370,113" fill="none" stroke="#34A853" stroke-width="2"/>
+          <!-- coleman.com: ~0.5K -->
+          <polyline points="10,122 64,122 118,118 173,122 228,122 282,122 336,122 370,122" fill="none" stroke="#EA4335" stroke-width="2"/>
+          <!-- carrier.com: 2-3K trending down -->
+          <polyline points="10,97 64,80 118,72 173,88 228,105 282,113 336,122 370,122" fill="none" stroke="#9C27B0" stroke-width="2.5"/>
+        </svg>
+        <div class="leg">
+          <div class="li"><div class="ld" style="background:#4285F4"></div>york.com</div>
+          <div class="li"><div class="ld" style="background:#FFA726"></div>trane.com</div>
+          <div class="li"><div class="ld" style="background:#34A853"></div>lennox.com</div>
+          <div class="li"><div class="ld" style="background:#EA4335"></div>coleman.com</div>
+          <div class="li"><div class="ld" style="background:#9C27B0"></div>carrier.com</div>
+        </div>
+      </div>
+
+      <div class="cbox" style="margin-bottom:0">
+        <div class="chd">Benchmark Visits by AI Model — Share per Domain</div>
+        <div style="display:flex;flex-direction:column;gap:12px;margin-top:4px">
+          <div>
+            <div style="font-size:12px;margin-bottom:4px;font-weight:700">carrier.com <span style="font-size:11px;color:var(--t2);font-weight:400">15,013 total AI visits</span></div>
+            <div class="stacked-bar">
+              <div style="background:#74AA9C;flex:11870" title="ChatGPT: 11,870"></div>
+              <div style="background:#8E44AD;flex:125" title="Perplexity: 125"></div>
+              <div style="background:#4285F4;flex:1792" title="Gemini: 1,792"></div>
+              <div style="background:#607D8B;flex:154" title="Copilot: 154"></div>
+              <div style="background:#E53935;flex:256" title="Claude: 256"></div>
+              <div style="background:#9E9E9E;flex:816" title="Google AI Mode: 816"></div>
+            </div>
+          </div>
+          <div>
+            <div style="font-size:12px;margin-bottom:4px;font-weight:500">trane.com <span style="font-size:11px;color:var(--t2);font-weight:400">15,354 total AI visits</span></div>
+            <div class="stacked-bar">
+              <div style="background:#74AA9C;flex:11617" title="ChatGPT: 11,617"></div>
+              <div style="background:#8E44AD;flex:121" title="Perplexity: 121"></div>
+              <div style="background:#4285F4;flex:1552" title="Gemini: 1,552"></div>
+              <div style="background:#607D8B;flex:164" title="Copilot: 164"></div>
+              <div style="background:#E53935;flex:1054" title="Claude: 1,054"></div>
+              <div style="background:#9E9E9E;flex:846" title="Google AI Mode: 846"></div>
+            </div>
+          </div>
+          <div>
+            <div style="font-size:12px;margin-bottom:4px;font-weight:500">lennox.com <span style="font-size:11px;color:var(--t2);font-weight:400">13,129 total AI visits</span></div>
+            <div class="stacked-bar">
+              <div style="background:#74AA9C;flex:2893" title="ChatGPT: 2,893"></div>
+              <div style="background:#8E44AD;flex:7592" title="Perplexity: 7,592"></div>
+              <div style="background:#4285F4;flex:1101" title="Gemini: 1,101"></div>
+              <div style="background:#E53935;flex:101" title="Claude: 101"></div>
+              <div style="background:#9E9E9E;flex:1442" title="Google AI Mode: 1,442"></div>
+            </div>
+          </div>
+          <div>
+            <div style="font-size:12px;margin-bottom:4px;font-weight:500">coleman.com <span style="font-size:11px;color:var(--t2);font-weight:400">4,696 total AI visits</span></div>
+            <div class="stacked-bar">
+              <div style="background:#74AA9C;flex:3547" title="ChatGPT: 3,547"></div>
+              <div style="background:#8E44AD;flex:575" title="Perplexity: 575"></div>
+              <div style="background:#E53935;flex:115" title="Claude: 115"></div>
+              <div style="background:#9E9E9E;flex:459" title="Google AI Mode: 459"></div>
+            </div>
+          </div>
+          <div>
+            <div style="font-size:12px;margin-bottom:4px;font-weight:500">york.com <span style="font-size:11px;color:var(--t2);font-weight:400">2,735 total AI visits</span></div>
+            <div class="stacked-bar">
+              <div style="background:#74AA9C;flex:2634" title="ChatGPT: 2,634"></div>
+              <div style="background:#4285F4;flex:101" title="Gemini: ~101"></div>
+            </div>
+          </div>
+        </div>
+        <div class="leg" style="margin-top:10px">
+          <div class="li"><div class="ld" style="background:#74AA9C"></div>ChatGPT</div>
+          <div class="li"><div class="ld" style="background:#8E44AD"></div>Perplexity</div>
+          <div class="li"><div class="ld" style="background:#4285F4"></div>Gemini</div>
+          <div class="li"><div class="ld" style="background:#607D8B"></div>Copilot</div>
+          <div class="li"><div class="ld" style="background:#E53935"></div>Claude</div>
+          <div class="li"><div class="ld" style="background:#9E9E9E"></div>Google AI Mode</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="section-label">Visits by Model — Detailed Breakdown per Domain</div>
+    <div style="overflow-x:auto">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th>Domain</th>
+          <th>Total Visits<br><span style="font-weight:400;text-transform:none;font-size:10px">Oct 2025–Apr 2026</span></th>
+          <th>ChatGPT</th><th>Perplexity</th><th>Gemini</th>
+          <th>Copilot</th><th>Claude</th><th>Grok</th><th>Deepseek</th><th>Google AI Mode</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="hl">
+          <td><span class="dd" style="background:#9C27B0"></span><strong>carrier.com</strong></td>
+          <td class="n">15,013</td><td class="n">11,870</td><td class="n">125</td><td class="n">1,792</td>
+          <td class="n">154</td><td class="n">256</td><td class="n">0</td><td class="n">0</td><td class="n">816</td>
+        </tr>
+        <tr>
+          <td><span class="dd" style="background:#FFA726"></span>trane.com</td>
+          <td class="n">15,354</td><td class="n">11,617</td><td class="n">121</td><td class="n">1,552</td>
+          <td class="n">164</td><td class="n">1,054</td><td class="n">0</td><td class="n">0</td><td class="n">846</td>
+        </tr>
+        <tr>
+          <td><span class="dd" style="background:#34A853"></span>lennox.com</td>
+          <td class="n">13,129</td><td class="n">2,893</td><td class="n">7,592</td><td class="n">1,101</td>
+          <td class="n">0</td><td class="n">101</td><td class="n">0</td><td class="n">0</td><td class="n">1,442</td>
+        </tr>
+        <tr>
+          <td><span class="dd" style="background:#EA4335"></span>coleman.com</td>
+          <td class="n">4,696</td><td class="n">3,547</td><td class="n">575</td><td class="n">0</td>
+          <td class="n">0</td><td class="n">115</td><td class="n">0</td><td class="n">0</td><td class="n">459</td>
+        </tr>
+        <tr>
+          <td><span class="dd" style="background:#4285F4"></span>york.com</td>
+          <td class="n">2,735</td><td class="n">2,634</td><td class="n">0</td><td class="n">101</td>
+          <td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td class="n">0</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+  </div>
+  <a href="#" class="back">↑ Back to top</a>
+</div>
+
+</div>
+<footer>Semrush AIO Enterprise &nbsp;·&nbsp; Report generated May 15, 2026 &nbsp;·&nbsp; carrier.com &nbsp;·&nbsp; United States</footer>
+</body>
+</html>
